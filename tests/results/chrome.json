@@ -1,0 +1,92 @@
+[
+  {
+    "description": "  As a Google search engine user\n  I want to be able to find things",
+    "elements": [
+      {
+        "description": "",
+        "id": "searching-with-google;searching-for-\"cats\"",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Searching for \"cats\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1592052515
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "that I am at \"https://www.google.com/\"",
+            "match": {
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1401464909
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have approved of cookies",
+            "match": {
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71636343
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"cats\"",
+            "match": {
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3723086674
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should get at least 1000 hits",
+            "match": {
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94541128
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57492607
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "searching-with-google",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Searching with Google",
+    "tags": [],
+    "uri": "tests/features/search.feature"
+  }
+]
