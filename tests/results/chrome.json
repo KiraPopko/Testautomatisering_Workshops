@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1483003527
+              "duration": 1023937100
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 6,
             "name": "that I am at \"https://www.google.com/\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:10"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1388676262
+              "duration": 1010335700
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I have approved of cookies",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:14"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 59653617
+              "duration": 132205499
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I search for \"cats\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:25"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 3328031083
+              "duration": 1479268098
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "I should get at least 1000 hits",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:36"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:36"
             },
             "result": {
               "status": "passed",
-              "duration": 92579184
+              "duration": 219177098
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57640368
+              "duration": 61643399
             }
           }
         ],
@@ -87,6 +87,6 @@
     "keyword": "Feature",
     "name": "Searching with Google",
     "tags": [],
-    "uri": "tests/features/search.feature"
+    "uri": "tests\\features\\search.feature"
   }
 ]
