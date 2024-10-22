@@ -1,73 +1,59 @@
 [
   {
-    "description": "  As a Google search engine user\n  I want to be able to find things",
+    "description": "  As a user I want to be able to turn on and of a \n  full screen mode when playing the game.",
     "elements": [
       {
         "description": "",
-        "id": "searching-with-google;searching-for-\"cats\"",
+        "id": "changing-the-window-to-full-screen-mode;turning-on-full-screen-mode",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Searching for \"cats\"",
+        "name": "Turning on full screen mode",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1527302208
+              "duration": 1462934138
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "that I am at \"https://www.google.com/\"",
+            "name": "that I have started the game at \"http://localhost:3000\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:10"
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1997989521
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I have approved of cookies",
-            "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 58974405
+              "duration": 2932739122
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
-            "name": "I search for \"cats\"",
+            "line": 7,
+            "name": "I click the full screen button",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:25"
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3052597720
+              "duration": 2124977415
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "I should get at least 1000 hits",
+            "line": 8,
+            "name": "I should get a full screen mode",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:36"
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 65888427,
-              "error_message": "AssertionError\n    + expected - actual\n\n    -0\n    +1000\n\n    at CustomWorld.<anonymous> (file:///Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:54:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+              "status": "passed",
+              "duration": 2001028730
             }
           },
           {
@@ -75,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54132691
+              "duration": 56404865
             }
           }
         ],
@@ -83,11 +69,11 @@
         "type": "scenario"
       }
     ],
-    "id": "searching-with-google",
+    "id": "changing-the-window-to-full-screen-mode",
     "line": 1,
     "keyword": "Feature",
-    "name": "Searching with Google",
+    "name": "Changing the window to full screen mode",
     "tags": [],
-    "uri": "tests/features/search.feature"
+    "uri": "tests/features/fullScreen.feature"
   }
 ]

@@ -5,4 +5,4 @@ Feature: Changing the window to full screen mode
   Scenario: Turning on full screen mode
     Given that I have started the game at "http://localhost:3000"
     When I click the full screen button
-    Then I should get a full screen mode.
+    Then I should get a full screen mode
