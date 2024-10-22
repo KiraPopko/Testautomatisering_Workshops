@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1462934138
+              "duration": 1441453520
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2932739122
+              "duration": 617671202
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2124977415
+              "duration": 2045344552
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I should get a full screen mode",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:15"
+              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2001028730
+              "duration": 1977616
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56404865
+              "duration": 55832964
             }
           }
         ],

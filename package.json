@@ -5,7 +5,7 @@
   "description": "A small text adventure - written in vanilla JS + selenium testing to it",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json",
+    "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json --",
     "report": "node ./generateReport",
     "start": "node index.js"
   },
