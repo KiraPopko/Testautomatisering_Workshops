@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1468763240
+              "duration": 1527302208
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1439405911
+              "duration": 1997989521
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56302667
+              "duration": 58974405
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 440901025
+              "duration": 3052597720
             }
           },
           {
@@ -65,8 +65,9 @@
               "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:36"
             },
             "result": {
-              "status": "passed",
-              "duration": 3752418162
+              "status": "failed",
+              "duration": 65888427,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -0\n    +1000\n\n    at CustomWorld.<anonymous> (file:///Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:54:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
           {
@@ -74,7 +75,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61651711
+              "duration": 54132691
             }
           }
         ],

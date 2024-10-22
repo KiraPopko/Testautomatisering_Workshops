@@ -1,12 +1,13 @@
 {
-  "name": "selenium-with-cucumber",
+  "name": "espresso-addict-and-selenium-with-cucumber",
   "type": "module",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.2.0",
+  "description": "A small text adventure - written in vanilla JS + selenium testing to it",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json",
-    "report": "node ./generateReport"
+    "report": "node ./generateReport",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "chromedriver": "^130.0.0",
     "cucumber-html-reporter": "^6.0.0",
     "open": "^10.1.0",
-    "selenium-webdriver": "^4.25.0"
+    "selenium-webdriver": "^4.25.0",
+    "express": "^4.21.1"
   }
 }
