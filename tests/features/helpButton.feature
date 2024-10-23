@@ -1,18 +1,26 @@
-Feature: Help Button
+Feature: Explore the Cafe
 
   Scenario: Start outside the cafe and see the cafe image
-    Given I am starting the game outside the cafe
-    Then I should see the cafe image displayed
-    And I should see a descriptive text
+    Given that I am outside the cafe
+    When I wait without taking action
+    Then I should see an image of the cafe
+    And I should see a descriptive text explaining the scenario
 
-  Scenario: Viewing the help guide
-    Given I am starting the game outside the cafe
-    When I click the "Help" menu option
-    Then I should see a help message displayed
-    And I should see a button labeled "Continue"
+  Scenario: Enter the cafe and view the inside image
+    Given that I am outside the cafe
+    When I click the "Enter the cafe" button
+    Then I should see an image displayed inside the cafe
+    And I should see a descriptive text explaining the scenario
 
-  Scenario: Navigating back after viewing help
-    Given I am starting the game outside the cafe
-    And I click the "Help" menu option
-    When I click the "Continue" menu option
-    Then I should be outside the cafe
+  Scenario: Buy an espresso
+    Given that I am outside the cafe
+    When I click the "Enter the cafe" button
+    And I click the "Buy an espresso" button
+    Then I should see the number of espressos increase to 1
+    And my money should be 5
+
+  Scenario: Check player's money and health status
+    Given that I am outside the cafe
+    When I wait without taking action
+    Then my health should be 50
+    And my money should be 10
