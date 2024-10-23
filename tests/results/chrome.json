@@ -1,72 +1,56 @@
 [
   {
-    "description": "  As a Google search engine user\n  I want to be able to find things",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "searching-with-google;searching-for-\"cats\"",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-that-all-buttons-are-visible",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "Searching for \"cats\"",
+        "line": 3,
+        "name": "Checking that all buttons are visible",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1023937100
+              "duration": 760154100
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
-            "name": "that I am at \"https://www.google.com/\"",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
             "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:10"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1010335700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I have approved of cookies",
-            "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 132205499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "I search for \"cats\"",
-            "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1479268098
+              "duration": 3386108699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "I should get at least 1000 hits",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
             "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:36"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:42"
             },
             "result": {
               "status": "passed",
-              "duration": 219177098
+              "duration": 3002676898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "that there are exactly 5 elements in the class choices",
+            "result": {
+              "status": "undefined",
+              "duration": 0
             }
           },
           {
@@ -74,7 +58,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61643399
+              "duration": 120016400
             }
           }
         ],
@@ -82,11 +66,11 @@
         "type": "scenario"
       }
     ],
-    "id": "searching-with-google",
+    "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them",
     "line": 1,
     "keyword": "Feature",
-    "name": "Searching with Google",
+    "name": "All play  Buttons should be present and work correctly after clicking them",
     "tags": [],
-    "uri": "tests\\features\\search.feature"
+    "uri": "tests\\features\\buttons.feature"
   }
 ]
