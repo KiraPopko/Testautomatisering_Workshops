@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 898375699
+              "duration": 893426400
             }
           },
           {
@@ -27,20 +27,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1771285500
+              "duration": 1883815500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I do nothing",
+            "name": "I wait without taking action",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 15184800
+              "duration": 13919499
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 44576999
+              "duration": 44421699
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46023199
+              "duration": 46457798
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133030799
+              "duration": 71018800
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 909197999
+              "duration": 894929899
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1560464099
+              "duration": 1512902598
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74329499
+              "duration": 77050499
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45235099
+              "duration": 29053699
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45821099
+              "duration": 76790399
             }
           },
           {
@@ -153,7 +153,165 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 52096400
+              "duration": 93847500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "explore-the-cafe;buy-an-espresso",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Buy an espresso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 842003199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1586861700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75548799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"Buy an espresso\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61559198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the number of espressos increase to 1",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46404499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75192200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "explore-the-cafe;check-player's-money-and-health-status",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Check player's money and health status",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 876419800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1541919098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I wait without taking action",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "my health should be 50",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45505800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "my money should be 10",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31233199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141324099
             }
           }
         ],
@@ -183,7 +341,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 866613900
+              "duration": 887079999
             }
           },
           {
@@ -196,7 +354,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1622363899
+              "duration": 1600550599
             }
           },
           {
@@ -209,7 +367,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2117268698
+              "duration": 2140413899
             }
           },
           {
@@ -222,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15230199
+              "duration": 14989399
             }
           },
           {
@@ -230,7 +388,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 145030799
+              "duration": 161282899
             }
           }
         ],

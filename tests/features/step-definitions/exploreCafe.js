@@ -9,8 +9,8 @@ Given('that I am outside the cafe', async function () {
   await this.driver.get(url);
 });
 
-When('I do nothing', async function () {
-  // Nothing
+When('I wait without taking action', async function () {
+  // Nothing happens, just wait
 });
 
 When('I click the {string} button', async function (buttonText) {
@@ -36,4 +36,23 @@ Then('I should see a descriptive text explaining the scenario', async function (
   const textElement = await this.driver.findElement(By.css('p.description'));
   const textContent = await textElement.getText();
   expect(textContent).to.be.a('string').and.not.empty;
+});
+
+// New Step Definitions for Player Interactions
+Then('I should see the number of espressos increase to {int}', async function (expectedCount) {
+  const espressoCountElement = await this.driver.findElement(By.css('.espressocups .val'));
+  const actualCount = await espressoCountElement.getText();
+  expect(parseInt(actualCount)).to.equal(expectedCount);
+});
+
+Then('my health should be {int}', async function (expectedHealth) {
+  const healthElement = await this.driver.findElement(By.css('.health .val'));
+  const actualHealth = await healthElement.getText();
+  expect(parseInt(actualHealth)).to.equal(expectedHealth);
+});
+
+Then('my money should be {int}', async function (expectedMoney) {
+  const moneyElement = await this.driver.findElement(By.css('.money .val'));
+  const actualMoney = await moneyElement.getText();
+  expect(parseInt(actualMoney)).to.equal(expectedMoney);
 });
