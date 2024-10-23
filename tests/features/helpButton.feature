@@ -2,7 +2,6 @@ Feature: Help Button
 
   Scenario: Start outside the cafe and see the cafe image
     Given I am starting the game outside the cafe
-    When I select "Wait" from the action menu
     Then I should see the cafe image displayed
     And I should see a descriptive text
 

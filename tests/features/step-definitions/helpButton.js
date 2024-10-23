@@ -6,14 +6,10 @@ Given('I am starting the game outside the cafe', async function () {
   await this.driver.get('http://localhost:3000');
 });
 
-When('I select {string} from the action menu', async function (option) {
-  const actionOption = await this.driver.findElement(By.xpath(`//li[contains(text(), '${option}')]`));
-  await actionOption.click();
-});
-
-When('I click the {string} menu option', async function (option) {
-  const menuOption = await this.driver.findElement(By.xpath(`//li[contains(text(), '${option}')]`));
-  await menuOption.click();
+When('I click the {string} menu option', async function (menuOption) {
+  const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${menuOption.toLowerCase()}")]`;
+  const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+  await button.click();
 });
 
 Then('I should see the cafe image displayed', async function () {
@@ -29,14 +25,16 @@ Then('I should see a descriptive text', async function () {
 });
 
 Then('I should see a help message displayed', async function () {
-  const helpMessageElement = await this.driver.findElement(By.css('p.description'));
-  const isDisplayed = await helpMessageElement.isDisplayed();
-  expect(isDisplayed).to.be.true;
+  const helpTextElement = await this.driver.findElement(By.css('p.description'));
+  const textContent = await helpTextElement.getText();
+  expect(textContent).to.include("You're a hipster");
 });
 
-Then('I should see a button labeled "Continue"', async function () {
-  const continueButton = await this.driver.findElement(By.xpath("//li[contains(text(), 'Continue')]"));
-  const isDisplayed = await continueButton.isDisplayed();
+
+Then('I should see a button labeled {string}', async function (buttonLabel) {
+  const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonLabel.toLowerCase()}")]`;
+  const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+  const isDisplayed = await button.isDisplayed();
   expect(isDisplayed).to.be.true;
 });
 
