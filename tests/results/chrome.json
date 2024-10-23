@@ -1,5 +1,174 @@
 [
   {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "explore-the-cafe;start-outside-the-cafe-and-see-the-cafe-image",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Start outside the cafe and see the cafe image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 898375699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1771285500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I do nothing",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15184800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see an image of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44576999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46023199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133030799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "explore-the-cafe;enter-the-cafe-and-view-the-inside-image",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Enter the cafe and view the inside image",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 909197999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1560464099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74329499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see an image displayed inside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45235099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45821099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52096400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "explore-the-cafe",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Explore the Cafe",
+    "tags": [],
+    "uri": "tests\\features\\exploreCafe.feature"
+  },
+  {
     "description": "  As a user I want to be able to turn on and of a \n  full screen mode when playing the game.",
     "elements": [
       {
@@ -14,7 +183,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1441453520
+              "duration": 866613900
             }
           },
           {
@@ -23,11 +192,11 @@
             "line": 6,
             "name": "that I have started the game at \"http://localhost:3000\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:7"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 617671202
+              "duration": 1622363899
             }
           },
           {
@@ -36,11 +205,11 @@
             "line": 7,
             "name": "I click the full screen button",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:11"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 2045344552
+              "duration": 2117268698
             }
           },
           {
@@ -49,11 +218,11 @@
             "line": 8,
             "name": "I should get a full screen mode",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:16"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 1977616
+              "duration": 15230199
             }
           },
           {
@@ -61,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 55832964
+              "duration": 145030799
             }
           }
         ],
@@ -74,6 +243,6 @@
     "keyword": "Feature",
     "name": "Changing the window to full screen mode",
     "tags": [],
-    "uri": "tests/features/fullScreen.feature"
+    "uri": "tests\\features\\fullScreen.feature"
   }
 ]
