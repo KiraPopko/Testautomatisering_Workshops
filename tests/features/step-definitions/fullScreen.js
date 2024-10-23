@@ -16,6 +16,7 @@ Given('that I have started the game at {string}', async function (url) {
 Then('I should get a full screen mode', async function () {
   // I cant figure out how to confirm the fullscreen state...
   // return 'pending';
+  // expect(await this.driver.findElement(By.css('.go-fullscreen'))).to.be.true;
 }); 
 
 

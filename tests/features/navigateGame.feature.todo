@@ -1,7 +1,0 @@
-Feature: Klick on the play buttons
-  As a user I want to be able to navigate the game through the buttons in the footer nav-bar.
-
-  Scenario: Click on the Enter the Cafe-button
-    Given that I have started the game at "http://localhost:3000"
-    When I click the Enter the Cafe-button
-    Then a text should appear containing Cloud Forest Cafe
