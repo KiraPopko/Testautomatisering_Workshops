@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 684565299
+              "duration": 719772400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3477334398
+              "duration": 3114345099
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15030598
+              "duration": 11049899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33384300
+              "duration": 17077298
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32455299
+              "duration": 31517599
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29966799
+              "duration": 38849900
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 709323499
+              "duration": 693831399
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2271758298
+              "duration": 2215558199
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37180098
+              "duration": 49463798
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14108000
+              "duration": 27566198
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25314898
+              "duration": 19168198
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26233900
+              "duration": 34492100
             }
           }
         ],
@@ -162,17 +162,17 @@
       },
       {
         "description": "",
-        "id": "explore-the-cafe;buy-an-espresso",
+        "id": "explore-the-cafe;buy-an-espresso-and-check-player-stats",
         "keyword": "Scenario",
         "line": 15,
-        "name": "Buy an espresso",
+        "name": "Buy an espresso and check player stats",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 731954699
+              "duration": 698997500
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2021012798
+              "duration": 2225702100
             }
           },
           {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41408799
+              "duration": 38214299
             }
           },
           {
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63825698
+              "duration": 45422898
             }
           },
           {
@@ -224,7 +224,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36691398
+              "duration": 30284598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "my money should be 5",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13561599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "my health should be 60",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13010399
             }
           },
           {
@@ -232,7 +258,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 40519200
+              "duration": 31404600
             }
           }
         ],
@@ -243,7 +269,7 @@
         "description": "",
         "id": "explore-the-cafe;check-player's-money-and-health-status",
         "keyword": "Scenario",
-        "line": 21,
+        "line": 23,
         "name": "Check player's money and health status",
         "steps": [
           {
@@ -251,59 +277,59 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 775823499
+              "duration": 700273900
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 22,
+            "line": 24,
             "name": "that I am outside the cafe",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2334437798
+              "duration": 2141550600
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 23,
+            "line": 25,
             "name": "I wait without taking action",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 15161500
+              "duration": 1619700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
+            "line": 26,
             "name": "my health should be 50",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 19664199
+              "duration": 29801599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 25,
+            "line": 27,
             "name": "my money should be 10",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 13026300
+              "duration": 18691100
             }
           },
           {
@@ -311,7 +337,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26714100
+              "duration": 34502000
             }
           }
         ],
@@ -341,7 +367,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 730509899
+              "duration": 707514599
             }
           },
           {
@@ -354,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2542917799
+              "duration": 2007773500
             }
           },
           {
@@ -367,7 +393,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2087877499
+              "duration": 2080393399
             }
           },
           {
@@ -380,7 +406,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15123399
+              "duration": 15648999
             }
           },
           {
@@ -388,7 +414,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34814000
+              "duration": 42033300
             }
           }
         ],
@@ -418,7 +444,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 700250400
+              "duration": 700532199
             }
           },
           {
@@ -431,7 +457,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2310765799
+              "duration": 1913823500
             }
           },
           {
@@ -444,7 +470,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15312099
+              "duration": 15154400
             }
           },
           {
@@ -457,7 +483,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16327399
+              "duration": 15408300
             }
           },
           {
@@ -470,7 +496,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17034099
+              "duration": 20163799
             }
           },
           {
@@ -478,7 +504,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 24946300
+              "duration": 34175700
             }
           }
         ],
@@ -497,7 +523,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 691347000
+              "duration": 672972500
             }
           },
           {
@@ -510,7 +536,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2032543498
+              "duration": 2058388200
             }
           },
           {
@@ -523,7 +549,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52373799
+              "duration": 51304798
             }
           },
           {
@@ -536,7 +562,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14985598
+              "duration": 26219300
             }
           },
           {
@@ -549,7 +575,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19227799
+              "duration": 19470898
             }
           },
           {
@@ -557,7 +583,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27242799
+              "duration": 34745800
             }
           }
         ],
@@ -566,17 +592,17 @@
       },
       {
         "description": "",
-        "id": "explore-the-cafe;buy-an-espresso",
+        "id": "explore-the-cafe;buy-an-espresso-and-check-player-stats",
         "keyword": "Scenario",
         "line": 15,
-        "name": "Buy an espresso",
+        "name": "Buy an espresso and check player stats",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 672957199
+              "duration": 684725899
             }
           },
           {
@@ -589,7 +615,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2305205299
+              "duration": 2046234999
             }
           },
           {
@@ -602,7 +628,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 44117099
+              "duration": 52238599
             }
           },
           {
@@ -615,7 +641,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47831698
+              "duration": 44768900
             }
           },
           {
@@ -628,7 +654,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29545400
+              "duration": 22701500
             }
           },
           {
@@ -641,7 +667,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17794500
+              "duration": 15619999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "my health should be 60",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19047899
             }
           },
           {
@@ -649,7 +688,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27090300
+              "duration": 33728399
             }
           }
         ],
@@ -660,7 +699,7 @@
         "description": "",
         "id": "explore-the-cafe;check-player's-money-and-health-status",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 23,
         "name": "Check player's money and health status",
         "steps": [
           {
@@ -668,59 +707,59 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 674602400
+              "duration": 704634999
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 23,
+            "line": 24,
             "name": "that I am outside the cafe",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2269314900
+              "duration": 1960411100
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
+            "line": 25,
             "name": "I wait without taking action",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 9405699
+              "duration": 15598500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 25,
+            "line": 26,
             "name": "my health should be 50",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 20072499
+              "duration": 30223900
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 26,
+            "line": 27,
             "name": "my money should be 10",
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 15809898
+              "duration": 19475400
             }
           },
           {
@@ -728,7 +767,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26923500
+              "duration": 32893400
             }
           }
         ],
