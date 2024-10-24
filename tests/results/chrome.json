@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 809296199
+              "duration": 820328000
             }
           },
           {
@@ -22,9 +22,12 @@
             "keyword": "Given ",
             "line": 4,
             "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 480320598
             }
           },
           {
@@ -32,9 +35,12 @@
             "keyword": "When ",
             "line": 5,
             "name": "I wait without taking action",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 7284999
             }
           },
           {
@@ -42,9 +48,12 @@
             "keyword": "Then ",
             "line": 6,
             "name": "I should see an image of the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:11"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 31912099
             }
           },
           {
@@ -52,9 +61,12 @@
             "keyword": "And ",
             "line": 7,
             "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 30721398
             }
           },
           {
@@ -62,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61615100
+              "duration": 50650400
             }
           }
         ],
@@ -81,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 876193500
+              "duration": 856317199
             }
           },
           {
@@ -89,9 +101,12 @@
             "keyword": "Given ",
             "line": 10,
             "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 451516899
             }
           },
           {
@@ -100,11 +115,11 @@
             "line": 11,
             "name": "I click the \"Enter the cafe\" button",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 68352399
             }
           },
           {
@@ -112,9 +127,12 @@
             "keyword": "Then ",
             "line": 12,
             "name": "I should see an image displayed inside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:17"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 29307299
             }
           },
           {
@@ -122,9 +140,12 @@
             "keyword": "And ",
             "line": 13,
             "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 41100500
             }
           },
           {
@@ -132,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 55851599
+              "duration": 57208099
             }
           }
         ],
@@ -151,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 910999199
+              "duration": 1118235100
             }
           },
           {
@@ -159,9 +180,12 @@
             "keyword": "Given ",
             "line": 16,
             "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 417969800
             }
           },
           {
@@ -170,11 +194,11 @@
             "line": 17,
             "name": "I click the \"Enter the cafe\" button",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 89384000
             }
           },
           {
@@ -183,11 +207,11 @@
             "line": 18,
             "name": "I click the \"Buy an espresso\" button",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 81289499
             }
           },
           {
@@ -195,9 +219,12 @@
             "keyword": "Then ",
             "line": 19,
             "name": "I should see the number of espressos increase to 1",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:29"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 38497999
             }
           },
           {
@@ -206,11 +233,11 @@
             "line": 20,
             "name": "my money should be 5",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:16"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 67156999
             }
           },
           {
@@ -219,11 +246,11 @@
             "line": 21,
             "name": "my health should be 60",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 23091699
             }
           },
           {
@@ -231,7 +258,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 67488000
+              "duration": 61909299
             }
           }
         ],
@@ -250,7 +277,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 893829600
+              "duration": 806497899
             }
           },
           {
@@ -258,9 +285,12 @@
             "keyword": "Given ",
             "line": 24,
             "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 505842098
             }
           },
           {
@@ -268,9 +298,12 @@
             "keyword": "When ",
             "line": 25,
             "name": "I wait without taking action",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 15779399
             }
           },
           {
@@ -279,11 +312,11 @@
             "line": 26,
             "name": "my health should be 50",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:12"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 32576199
             }
           },
           {
@@ -292,11 +325,11 @@
             "line": 27,
             "name": "my money should be 10",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:16"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 20434099
             }
           },
           {
@@ -304,7 +337,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 48860499
+              "duration": 29778399
             }
           }
         ],
@@ -334,7 +367,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 807276700
+              "duration": 775135100
             }
           },
           {
@@ -347,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 646830200
+              "duration": 1375567600
             }
           },
           {
@@ -360,7 +393,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2096283899
+              "duration": 2102372198
             }
           },
           {
@@ -373,7 +406,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 729099
+              "duration": 7617399
             }
           },
           {
@@ -381,7 +414,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 147072099
+              "duration": 85059000
             }
           }
         ],
@@ -401,17 +434,17 @@
     "elements": [
       {
         "description": "",
-        "id": "help-button-functionality;display-help-message-when-clicking-help-button",
+        "id": "explore-the-cafe;start-outside-the-cafe-and-see-the-cafe-image",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Display help message when clicking help button",
+        "name": "Start outside the cafe and see the cafe image",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 887138500
+              "duration": 813813800
             }
           },
           {
@@ -419,45 +452,51 @@
             "keyword": "Given ",
             "line": 4,
             "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 510550399
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "I click the \"Help\" button",
+            "name": "I wait without taking action",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7763300
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "I should see a help message displayed",
+            "name": "I should see an image of the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\helpButton.js:12"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 32270999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "I should see a button labeled \"More Info\"",
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 39363898
             }
           },
           {
@@ -465,7 +504,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45486000
+              "duration": 56939599
             }
           }
         ],
@@ -474,17 +513,17 @@
       },
       {
         "description": "",
-        "id": "help-button-functionality;help-button-leads-to-relevant-information",
+        "id": "explore-the-cafe;enter-the-cafe-and-view-the-inside-image",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Help button leads to relevant information",
+        "name": "Enter the cafe and view the inside image",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 870117100
+              "duration": 845899699
             }
           },
           {
@@ -492,32 +531,51 @@
             "keyword": "Given ",
             "line": 10,
             "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 463312300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "I click the \"Help\" button",
+            "name": "I click the \"Enter the cafe\" button",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:8"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 73206200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "I should see a description text explaining the help scenario",
+            "name": "I should see an image displayed inside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:17"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 31207199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see a descriptive text explaining the scenario",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42530300
             }
           },
           {
@@ -525,7 +583,191 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 49602899
+              "duration": 37376099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "explore-the-cafe;buy-an-espresso-and-check-player-stats",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Buy an espresso and check player stats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 856704699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 448307500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click the \"Enter the cafe\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65094700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"Buy an espresso\" button",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48894800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the number of espressos increase to 1",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23958899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "my money should be 5",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25047100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "my health should be 60",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23914699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29936599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "explore-the-cafe;check-player's-money-and-health-status",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Check player's money and health status",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 765092600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "that I am outside the cafe",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408610500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I wait without taking action",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15421299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "my health should be 50",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31873100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "my money should be 10",
+            "match": {
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24448499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32296199
             }
           }
         ],
@@ -533,10 +775,10 @@
         "type": "scenario"
       }
     ],
-    "id": "help-button-functionality",
+    "id": "explore-the-cafe",
     "line": 1,
     "keyword": "Feature",
-    "name": "Help Button Functionality",
+    "name": "Explore the Cafe",
     "tags": [],
     "uri": "tests\\features\\helpButton.feature"
   }

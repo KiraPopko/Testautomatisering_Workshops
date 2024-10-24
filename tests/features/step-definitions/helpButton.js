@@ -1,10 +1,15 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import { By, until } from 'selenium-webdriver';
+import { By } from 'selenium-webdriver';
 import { expect } from 'chai';
-// Importera gemensamma steg (för att säkerställa att de är laddade)
-import './commonSteps.js';
+import { openCafe, clickButton } from './commonSteps.js'; // Importera gemensamma funktioner
 
 // Unika stegdefinitioner för helpButton
+Given('that I am inside the bar', async function () {
+  await openCafe(this.driver); // Använd den exporterade funktionen
+  await clickButton(this.driver, "go north"); // Använd den exporterade funktionen
+  await clickButton(this.driver, "go east"); // Använd den exporterade funktionen
+});
+
 Then('I should see a help message displayed', async function () {
   const helpTextElement = await this.driver.findElement(By.css('p.description'));
   const textContent = await helpTextElement.getText();

@@ -1,10 +1,13 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import { By, until } from 'selenium-webdriver';
+import { By } from 'selenium-webdriver';
 import { expect } from 'chai';
-// Importera gemensamma steg (för att säkerställa att de är laddade)
-import './commonSteps.js';
+import { openCafe, clickButton } from './commonSteps.js'; // Importera gemensamma funktioner
 
 // Unika stegdefinitioner för exploreCafe
+When('I click the {string} button', async function (buttonText) {
+  await clickButton(this.driver, buttonText); // Använd den exporterade funktionen
+});
+
 Then('I should see an image of the cafe', async function () {
   const imageElement = await this.driver.findElement(By.css('img.big-image'));
   const srcImage = await imageElement.getAttribute('src');
