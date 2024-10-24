@@ -6,7 +6,7 @@
         "description": "",
         "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-that-all-buttons-are-visible",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 6,
         "name": "Checking that all buttons are visible",
         "steps": [
           {
@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 760154100
+              "duration": 864535100
             }
           },
           {
@@ -27,30 +27,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3386108699
+              "duration": 3639832798
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 5,
+            "line": 7,
             "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
             "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:42"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:35"
             },
             "result": {
               "status": "passed",
-              "duration": 3002676898
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "that there are exactly 5 elements in the class choices",
-            "result": {
-              "status": "undefined",
-              "duration": 0
+              "duration": 3000787898
             }
           },
           {
@@ -58,7 +48,139 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 120016400
+              "duration": 132291900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-enter-the-caffe",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Checking button Enter the caffe",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 836966399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3060187000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "button \"Enter the cafe\" is clicked",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3069228798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "should be changed \"view\", \"text\" and available button \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3071306098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 171096499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-wait",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Checking button Wait",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 943752199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3447390699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "button \"Wait\" is pressed",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3052456200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "\"Health\" should be changed to 40 and color to red",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000843598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73093700
             }
           }
         ],

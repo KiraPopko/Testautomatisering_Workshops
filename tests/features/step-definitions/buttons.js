@@ -11,30 +11,23 @@ Given('that game is starded with joining game {string}', async function (url) {
   });
 
   /*Then('that there are available all buttons {string}, {string}, {string}, {string}, {string}', async function (b1,b2,b3,b4,b5) {
-   //
    //let enterCafe = await this.getByXPathWait('/descendant::*[@class="choices"]//*[contains(text(), "Enter the cafe")]');
   
   // let enterCafe = await this.getByXPath("//ul/li[text()='Enter the Cafe']/following::div[contains(@class, 'choices')]");
-   
 
     let enterCafe = await '//ul/li[text()="Enter the Cafe"]/following-sibling::div[contains(@class, "choices")]';
-
     expect(enterCafe).to.exist;
 
     let wait = await '//ul/li[text()="wait"]/following-sibling::div[contains(@class, "choices")]';
-
     expect(enterCafe).to.exist;
 
     let north = await '//ul/li[text()="Go north"]/following-sibling::div[contains(@class, "choices")]';
-
     expect(north).to.exist;
 
     let south = await '//ul/li[text()="Go south"]/following-sibling::div[contains(@class, "choices")]';
-
     expect(south).to.exist;
 
     let help = await '//ul/li[text()="Help"]/following-sibling::div[contains(@class, "choices")]';
-
     expect(help).to.exist;
     
   });*/
@@ -53,30 +46,66 @@ Given('that game is starded with joining game {string}', async function (url) {
     for (let xpath of buttonXPaths) {
         let button = await xpath;
         expect(button).to.exist;
-    }
-
-    
+    }  
 });
 
 
-
-/*Then('that there are exactly {int} elements in the class choices', async function (expectedCount) {
-    const choicesXPath = '//div[contains(@class, "choices")]';
-    
-    // Find all elements that are children of the choices container
-    const choices = await (`${choicesXPath}/*`);
-
-    // Log the actual count of choices for debugging
-    console.log('Actual count of choices:', choices.length);
-
-    // Assert that the number of choices matches the expected count
-    expect(choices).to.have.lengthOf(expectedCount);
+/*When('button {string} is clicked', async function (enterTheCaffe) {
+  //let enterCafe = await '//ul/li[text()="Enter the Cafe"]/following-sibling::div[contains(@class, "choices")]';
+  let button = await this.driver.wait(until.elementLocated(By.xpath("//div[contains(text(),'Enter the Cafe')]", 3000)));
+  
+  await button.click();
 });*/
 
 
+When('button {string} is clicked', async function (buttonC) {
+  // Wait until the element matching the XPath is located (with a timeout of 3000 ms)
+  //let button = await until.elementLocated(By.css('.choices li:nth-child(1)').innerText.click());
+  // Ensure the element is visible before attempting to click
+  //await this.driver.wait(until.elementIsVisible(webElement), 3000);
+  // Perform the click action
+  //await button.click();
 
+  const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonC.toLowerCase()}")]`;
+  const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+  await button.click();
+});
+
+
+ 
+
+Then('should be changed {string}, {string} and available button {string}', async function (view, text, buttonE) {
+ //checking view
+  const imageElement = await this.driver.findElement(By.css('img.big-image'));
+  const srcImage = await imageElement.getAttribute('src');
+  expect(srcImage).to.contain('inside-cafe.jpg');
+
+//checking text
+
+const helpTextElement = await this.driver.findElement(By.css('p.description'));
+const textContent = await helpTextElement.getText();
+expect(textContent).to.include("You are in the Cloud Forest Cafe");
+
+//checking button
+const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonE.toLowerCase()}")]`;
+  const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+  const isDisplayed = await button.isDisplayed();
+  expect(isDisplayed).to.be.true;
+});
+
+/*const healthElement = await this.driver.findElement(By.css('.health .val'));
+  const actualHealth = await healthElement.getText();
+  expect(parseInt(actualHealth)).to.equal(expectedHealth);*/
+
+  When('button {string} is pressed', async function (buttonW) {
+  
+    const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonW.toLowerCase()}")]`;
+    const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
+    await button.click();
+  });
+
+
+  Then('{string} should be changed to {int} and color to red', async function (buttonW, healthI) {
   
   
-
-
-
+  });
