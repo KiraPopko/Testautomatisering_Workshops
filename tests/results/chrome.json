@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 820328000
+              "duration": 689718000
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 480320598
+              "duration": 937000699
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "I wait without taking action",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 7284999
+              "duration": 2519493998
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31912099
+              "duration": 533959599
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30721398
+              "duration": 533166399
             }
           },
           {
@@ -74,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 50650400
+              "duration": 42071299
             }
           }
         ],
@@ -93,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 856317199
+              "duration": 658655599
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 451516899
+              "duration": 887553900
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 68352399
+              "duration": 553861199
             }
           },
           {
@@ -132,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29307299
+              "duration": 529497700
             }
           },
           {
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41100500
+              "duration": 533254499
             }
           },
           {
@@ -153,7 +153,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57208099
+              "duration": 44982100
             }
           }
         ],
@@ -172,7 +172,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1118235100
+              "duration": 687029899
             }
           },
           {
@@ -181,11 +181,11 @@
             "line": 16,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 417969800
+              "duration": 901374399
             }
           },
           {
@@ -198,7 +198,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89384000
+              "duration": 550656500
             }
           },
           {
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81289499
+              "duration": 543431898
             }
           },
           {
@@ -224,7 +224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38497999
+              "duration": 524980499
             }
           },
           {
@@ -233,11 +233,11 @@
             "line": 20,
             "name": "my money should be 5",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 67156999
+              "duration": 519501800
             }
           },
           {
@@ -246,11 +246,11 @@
             "line": 21,
             "name": "my health should be 60",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 23091699
+              "duration": 525399499
             }
           },
           {
@@ -258,7 +258,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61909299
+              "duration": 49954999
             }
           }
         ],
@@ -277,7 +277,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 806497899
+              "duration": 672742599
             }
           },
           {
@@ -286,11 +286,11 @@
             "line": 24,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 505842098
+              "duration": 893396900
             }
           },
           {
@@ -299,11 +299,11 @@
             "line": 25,
             "name": "I wait without taking action",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 15779399
+              "duration": 2518514898
             }
           },
           {
@@ -312,11 +312,11 @@
             "line": 26,
             "name": "my health should be 50",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 32576199
+              "duration": 522272899
             }
           },
           {
@@ -325,11 +325,11 @@
             "line": 27,
             "name": "my money should be 10",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 20434099
+              "duration": 515355399
             }
           },
           {
@@ -337,7 +337,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29778399
+              "duration": 42705299
             }
           }
         ],
@@ -367,7 +367,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 775135100
+              "duration": 695865299
             }
           },
           {
@@ -380,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1375567600
+              "duration": 930076998
             }
           },
           {
@@ -393,7 +393,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2102372198
+              "duration": 2570183599
             }
           },
           {
@@ -406,7 +406,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7617399
+              "duration": 505360699
             }
           },
           {
@@ -414,7 +414,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 85059000
+              "duration": 40604199
             }
           }
         ],
@@ -444,7 +444,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 813813800
+              "duration": 666730299
             }
           },
           {
@@ -453,11 +453,11 @@
             "line": 4,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 510550399
+              "duration": 887194199
             }
           },
           {
@@ -466,11 +466,11 @@
             "line": 5,
             "name": "I wait without taking action",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 7763300
+              "duration": 2508679300
             }
           },
           {
@@ -483,7 +483,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32270999
+              "duration": 521345499
             }
           },
           {
@@ -496,7 +496,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 39363898
+              "duration": 531902800
             }
           },
           {
@@ -504,7 +504,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56939599
+              "duration": 36510400
             }
           }
         ],
@@ -523,7 +523,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 845899699
+              "duration": 668482800
             }
           },
           {
@@ -532,11 +532,11 @@
             "line": 10,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 463312300
+              "duration": 895875798
             }
           },
           {
@@ -549,7 +549,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 73206200
+              "duration": 544650000
             }
           },
           {
@@ -562,7 +562,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31207199
+              "duration": 517619699
             }
           },
           {
@@ -575,7 +575,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42530300
+              "duration": 530485899
             }
           },
           {
@@ -583,7 +583,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37376099
+              "duration": 35877799
             }
           }
         ],
@@ -602,7 +602,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 856704699
+              "duration": 676802300
             }
           },
           {
@@ -611,11 +611,11 @@
             "line": 16,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 448307500
+              "duration": 882485598
             }
           },
           {
@@ -628,7 +628,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 65094700
+              "duration": 545820199
             }
           },
           {
@@ -641,7 +641,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48894800
+              "duration": 538334600
             }
           },
           {
@@ -654,7 +654,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23958899
+              "duration": 522339899
             }
           },
           {
@@ -663,11 +663,11 @@
             "line": 20,
             "name": "my money should be 5",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 25047100
+              "duration": 523962000
             }
           },
           {
@@ -676,11 +676,11 @@
             "line": 21,
             "name": "my health should be 60",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 23914699
+              "duration": 513257399
             }
           },
           {
@@ -688,7 +688,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29936599
+              "duration": 34148099
             }
           }
         ],
@@ -707,7 +707,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 765092600
+              "duration": 650602399
             }
           },
           {
@@ -716,11 +716,11 @@
             "line": 24,
             "name": "that I am outside the cafe",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:30"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 408610500
+              "duration": 914325600
             }
           },
           {
@@ -729,11 +729,11 @@
             "line": 25,
             "name": "I wait without taking action",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:34"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:33"
             },
             "result": {
               "status": "passed",
-              "duration": 15421299
+              "duration": 2513794498
             }
           },
           {
@@ -742,11 +742,11 @@
             "line": 26,
             "name": "my health should be 50",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:39"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 31873100
+              "duration": 527464999
             }
           },
           {
@@ -755,11 +755,11 @@
             "line": 27,
             "name": "my money should be 10",
             "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:45"
+              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 24448499
+              "duration": 519943099
             }
           },
           {
@@ -767,7 +767,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 32296199
+              "duration": 28901499
             }
           }
         ],
