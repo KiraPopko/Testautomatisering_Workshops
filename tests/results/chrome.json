@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 864535100
+              "duration": 844305499
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3639832798
+              "duration": 3557483599
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000787898
+              "duration": 3007754899
             }
           },
           {
@@ -48,7 +48,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 132291900
+              "duration": 124969100
             }
           }
         ],
@@ -67,7 +67,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 836966399
+              "duration": 819959999
             }
           },
           {
@@ -80,7 +80,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3060187000
+              "duration": 3812050699
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3069228798
+              "duration": 3053518199
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3071306098
+              "duration": 3063678499
             }
           },
           {
@@ -114,7 +114,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 171096499
+              "duration": 113982700
             }
           }
         ],
@@ -133,7 +133,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 943752199
+              "duration": 709207099
             }
           },
           {
@@ -146,7 +146,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3447390699
+              "duration": 3033120599
             }
           },
           {
@@ -159,20 +159,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3052456200
+              "duration": 3054468999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 16,
-            "name": "\"Health\" should be changed to 40 and color to red",
+            "name": "\"Health\" should be changed to 40 and color to \"red\"",
             "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:108"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:142"
             },
             "result": {
               "status": "passed",
-              "duration": 3000843598
+              "duration": 3005662800
             }
           },
           {
@@ -180,7 +180,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 73093700
+              "duration": 85898300
             }
           }
         ],
