@@ -4,62 +4,9 @@
     "elements": [
       {
         "description": "",
-        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-that-all-buttons-are-visible",
-        "keyword": "Scenario",
-        "line": 6,
-        "name": "Checking that all buttons are visible",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 844305499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "that game is starded with joining game \"http://localhost:3000\"",
-            "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3557483599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
-            "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3007754899
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 124969100
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
         "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-enter-the-caffe",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 8,
         "name": "Checking button Enter the caffe",
         "steps": [
           {
@@ -67,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 819959999
+              "duration": 887626600
             }
           },
           {
@@ -80,33 +27,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3812050699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "button \"Enter the cafe\" is clicked",
-            "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:61"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3053518199
+              "duration": 3634502998
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
-            "name": "should be changed \"view\", \"text\" and available button \"Buy an espresso\"",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
             "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:77"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3063678499
+              "duration": 3009207299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "button \"Enter the cafe\" is clicked",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3052281099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "should be changed \"view\", \"text\" and available button \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3073803800
             }
           },
           {
@@ -114,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 113982700
+              "duration": 124924100
             }
           }
         ],
@@ -125,7 +85,7 @@
         "description": "",
         "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-wait",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 12,
         "name": "Checking button Wait",
         "steps": [
           {
@@ -133,7 +93,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 709207099
+              "duration": 868409200
             }
           },
           {
@@ -146,33 +106,47 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3033120599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "button \"Wait\" is pressed",
-            "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:100"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3054468999
+              "duration": 3039743099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "\"Health\" should be changed to 40 and color to \"red\"",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
             "match": {
-              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:142"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3005662800
+              "duration": 3026252700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "button \"Wait\" is pressed",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3067055199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "\"Health\" should be changed to 40",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:144"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3041634698,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -35\n    +40\n\n    at CustomWorld.<anonymous> (file:///C:/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/tests/features/step-definitions/buttons.js:167:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async wrapPromiseWithTimeout (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:26)\n    at async TestCaseRunner.invokeStep (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)\n    at async C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:196:44\n    at async TestCaseRunner.aroundTestStep (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:138:32)\n    at async TestCaseRunner.runAttempt (C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:179:13)"
             }
           },
           {
@@ -180,7 +154,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 85898300
+              "duration": 121353599
             }
           }
         ],

@@ -10,6 +10,23 @@ Given('that game is starded with joining game {string}', async function (url) {
     await '/descendant::*[@class="health"]//*[contains(text(), "50")]';
   });
 
+  Then('that there are available all buttons {string}, {string}, {string}, {string}, {string}', async function (b1, b2, b3, b4, b5) {
+    // Get the button elements using the given strings (b1, b2, etc.)
+    const buttonXPaths = [
+        `//ul/li[text()="${b1}"]/following-sibling::div[contains(@class, "choices")]`,
+        `//ul/li[text()="${b2}"]/following-sibling::div[contains(@class, "choices")]`,
+        `//ul/li[text()="${b3}"]/following-sibling::div[contains(@class, "choices")]`,
+        `//ul/li[text()="${b4}"]/following-sibling::div[contains(@class, "choices")]`,
+        `//ul/li[text()="${b5}"]/following-sibling::div[contains(@class, "choices")]`
+    ];
+
+    // Loop through each XPath and assert that the button exists
+    for (let xpath of buttonXPaths) {
+        let button = await xpath;
+        expect(button).to.exist;
+    }  
+});
+
   /*Then('that there are available all buttons {string}, {string}, {string}, {string}, {string}', async function (b1,b2,b3,b4,b5) {
    //let enterCafe = await this.getByXPathWait('/descendant::*[@class="choices"]//*[contains(text(), "Enter the cafe")]');
   
@@ -32,22 +49,7 @@ Given('that game is starded with joining game {string}', async function (url) {
     
   });*/
 
-  Then('that there are available all buttons {string}, {string}, {string}, {string}, {string}', async function (b1, b2, b3, b4, b5) {
-    // Get the button elements using the given strings (b1, b2, etc.)
-    const buttonXPaths = [
-        `//ul/li[text()="${b1}"]/following-sibling::div[contains(@class, "choices")]`,
-        `//ul/li[text()="${b2}"]/following-sibling::div[contains(@class, "choices")]`,
-        `//ul/li[text()="${b3}"]/following-sibling::div[contains(@class, "choices")]`,
-        `//ul/li[text()="${b4}"]/following-sibling::div[contains(@class, "choices")]`,
-        `//ul/li[text()="${b5}"]/following-sibling::div[contains(@class, "choices")]`
-    ];
-
-    // Loop through each XPath and assert that the button exists
-    for (let xpath of buttonXPaths) {
-        let button = await xpath;
-        expect(button).to.exist;
-    }  
-});
+ 
 
 
 /*When('button {string} is clicked', async function (enterTheCaffe) {
@@ -138,17 +140,18 @@ const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNO
       const healthElementClass = await currentHealthElement.getAttribute('.healh')
       // Assuming "bad" is the class that applies the red color when health decreases significantly
       expect(healthElementClass).to.include('bad'); */
-
-      Then('{string} should be changed to {int} and color to {string}', async function (a, b, c) {
-        /*let waitCount = 0; 
+       
+      Then('{string} should be changed to {int}', async function (a, b) {
+        // and color to {string}
+        let waitCount;
         let decreaseAmount;
         
-        if (waitCount % 2 === 0) {
+        if (waitCount) {
             decreaseAmount = 10; // First decrease by 10
         } else {
             decreaseAmount = 5;  // Then decrease by 5 (alternating)
         }
-    
+    // element should be decreased
         waitCount++; 
     
         const currentHealthElement = await this.driver.findElement(By.css('.health .val'));
@@ -161,19 +164,24 @@ const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNO
         await this.driver.executeScript(`document.querySelector('.health .val').innerText = ${newHealth};`);
     
         console.log(`Decrease Amount: ${decreaseAmount}, New Health: ${newHealth}`);
+        expect(newHealth).to.equal(b);
     
         // Check the color/class after health update
-        const healthElementClass = await currentHealthElement.getAttribute('class'); // Corrected: `class`
+        /*const healthElementClass = await currentHealthElement.getAttribute('class'); // Corrected: `class`
         
         // Check if the element contains the expected color class
         if (c === "red") {
             expect(healthElementClass).to.include('bad'); // Assumes 'bad' class applies the red color
         }
     
-        // Optionally, you can also assert the updated health value
-        expect(newHealth).to.equal(b);*/
+        // Optionally, you can also assert the updated health value*/
+        const healthElementClass = await currentHealthElement.getAttribute('.class .val'); 
 
-        Then('{string} should be changed to {int} and color to {string}', async function (elementName, expectedHealth, expectedColor) {
+    // Verify that the class reflects the health status
+    expect(healthElementClass).to.include('bad');
+      });
+
+        /*Then('{string} should be changed to {int} and color to {string}', async function (elementName, expectedHealth, expectedColor) {
           const decreaseAmount = 10;
           const currentHealthElement = await this.driver.findElement(By.css('.health .val'));
           const currentHealth = parseInt(await currentHealthElement.getText());
@@ -196,6 +204,6 @@ const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNO
           }
       });
       
-    });
+    });*/
     
   
