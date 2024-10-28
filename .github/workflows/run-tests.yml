@@ -48,7 +48,7 @@ jobs:
       # start the web server (without hanging the terminal)
       # note nohup does NOT work with the npm command,
       # so run using the node command instead
-    - run: nohup node index.js &
+  
       # run whatever is specified in package.json
       # for the script test
     - run: npm test
