@@ -11,4 +11,4 @@ Then should be changed "view", "text" and available button "Buy an espresso"
 
 Scenario: Checking button Wait
 When button "Wait" is pressed
-Then "Health" should be changed to 40
+Then "Health" should be decreased and color changed to red

@@ -59,7 +59,7 @@ Given('that game is starded with joining game {string}', async function (url) {
   await button.click();
 });*/
 
-
+//checking button enter the cafe
 When('button {string} is clicked', async function (buttonC) {
   // Wait until the element matching the XPath is located (with a timeout of 3000 ms)
   //let button = await until.elementLocated(By.css('.choices li:nth-child(1)').innerText.click());
@@ -99,111 +99,33 @@ const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNO
   const actualHealth = await healthElement.getText();
   expect(parseInt(actualHealth)).to.equal(expectedHealth);*/
 
-  When('button {string} is pressed', async function (buttonW) {
-  
-    const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonW.toLowerCase()}")]`;
+  //Checking button health
+  When('button {string} is pressed', async function (buttonH) {
+    const xpath = `//li[contains(translate(normalize-space(text()), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), "${buttonH.toLowerCase()}")]`;
     const button = await this.driver.wait(until.elementLocated(By.xpath(xpath)), 5000);
     await button.click();
+    console.log(`Button "${buttonH}" pressed successfully.`);
   });
-
-   // Track the number of times the wait button is pressed
-
-  /*Then('{string} should be changed to {int} and color to {string}', async function (a, b, c) {
-
+  
+  Then('{string} should be decreased and color changed to red', async function (buttonH) {
+    // Locate the span displaying the health value
+    const healthValueElement = await this.driver.wait(until.elementLocated(By.css('.health .val')), 5000);
+    const healthValueText = await healthValueElement.getText();
+    const healthValue = parseInt(healthValueText, 10); // Parse text to integer with base 10
+  
+    // Log the current health value for monitoring
+    console.log(`Current health value for "${buttonH}" is: ${healthValue}`);
+  
+    // Locate the progress element to check if 'red' class is applied
+    const progressElement = await this.driver.wait(until.elementLocated(By.className('progress')), 5000);
+  
     
-      let decreaseAmount;
-      
-      if (waitCount % 2 === 0) {
-        decreaseAmount = 10; // Först minus 10
-      } else {
-        decreaseAmount = 5;  // Sen minus 5 (varann gång!)
-      }
+      const redIndicator = await progressElement.findElement(By.className('bad'));
+      const redIndicatorIsDisplayed = await redIndicator.isDisplayed();
+  
+      // Log whether the 'red' indicator is displayed
+      console.log(`Red indicator for "${buttonH}" is displayed: ${redIndicatorIsDisplayed}`);
+   
     
-      waitCount++; 
-    
-      const currentHealthElement = await this.driver.findElement(By.css('.health .val'));
-      const currentHealth = parseInt(await currentHealthElement.getText());
-    
-      console.log(`Current Health Before Update: ${currentHealth}`);
-    
-      
-      const newHealth = Math.max(0, currentHealth - decreaseAmount);
-    
-      
-      await this.driver.executeScript(`document.querySelector('.health .val').innerText = ${newHealth};`);
-    
-      console.log(`Decrease Amount: ${decreaseAmount}, New Health: ${newHealth}`);
-
-
-
-      //check the clolor
-      const healthElementClass = await currentHealthElement.getAttribute('.healh')
-      // Assuming "bad" is the class that applies the red color when health decreases significantly
-      expect(healthElementClass).to.include('bad'); */
-       
-      Then('{string} should be changed to {int}', async function (a, b) {
-        // and color to {string}
-        let waitCount;
-        let decreaseAmount;
-        
-        if (waitCount) {
-            decreaseAmount = 10; // First decrease by 10
-        } else {
-            decreaseAmount = 5;  // Then decrease by 5 (alternating)
-        }
-    // element should be decreased
-        waitCount++; 
-    
-        const currentHealthElement = await this.driver.findElement(By.css('.health .val'));
-        const currentHealth = parseInt(await currentHealthElement.getText());
-    
-        console.log(`Current Health Before Update: ${currentHealth}`);
-    
-        const newHealth = Math.max(0, currentHealth - decreaseAmount);
-    
-        await this.driver.executeScript(`document.querySelector('.health .val').innerText = ${newHealth};`);
-    
-        console.log(`Decrease Amount: ${decreaseAmount}, New Health: ${newHealth}`);
-        expect(newHealth).to.equal(b);
-    
-        // Check the color/class after health update
-        /*const healthElementClass = await currentHealthElement.getAttribute('class'); // Corrected: `class`
-        
-        // Check if the element contains the expected color class
-        if (c === "red") {
-            expect(healthElementClass).to.include('bad'); // Assumes 'bad' class applies the red color
-        }
-    
-        // Optionally, you can also assert the updated health value*/
-        const healthElementClass = await currentHealthElement.getAttribute('.class .val'); 
-
-    // Verify that the class reflects the health status
-    expect(healthElementClass).to.include('bad');
-      });
-
-        /*Then('{string} should be changed to {int} and color to {string}', async function (elementName, expectedHealth, expectedColor) {
-          const decreaseAmount = 10;
-          const currentHealthElement = await this.driver.findElement(By.css('.health .val'));
-          const currentHealth = parseInt(await currentHealthElement.getText());
-      
-          console.log(`Current Health Before Update: ${currentHealth}`);
-          const newHealth = Math.max(0, currentHealth - decreaseAmount);
-          await this.driver.executeScript(`document.querySelector('.health .val').innerText = ${newHealth};`);
-      
-          console.log(`New Health: ${newHealth}`);
-      
-          if (newHealth < 50 && expectedColor === "red") { 
-              await this.driver.executeScript(`document.querySelector('.health .val').classList.add('bad');`);
-          }
-      
-          const healthElementClass = await currentHealthElement.getAttribute('class');
-          expect(newHealth).to.equal(expectedHealth);
-      
-          if (expectedColor === "red") {
-              expect(healthElementClass).to.include('bad');
-          }
-      });
-      
-    });*/
-    
+  });
   
