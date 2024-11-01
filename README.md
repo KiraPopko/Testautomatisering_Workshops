@@ -1,7 +1,2 @@
-# An example of combining Cucumber and Selenium Webddriver in JS
-by Ironboy, Node Hill
-
-* Run **npm install** once.
-* Run the tests/feature-files with **npm test**.
-
-(There is a small feature with one only one scenario written and step-definitions)
+# Playwright-Cucumber-e2e-test-example
+ And example of using Playwright + Cucumber for e2e-testing including GitHub Actions-workflow (+ Selenium Webdriver for a comparison)
