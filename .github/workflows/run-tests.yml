@@ -4,9 +4,9 @@ name: Node.js CI
 # in which branch(es) should start the jobs...
 on:
   push:
-    branches: [main, playwright, Playwrigth-Cucumbur-e2e-test]
+    branches: [main, dev, Alex-Playwright-Cucumber ]
   pull_request:
-    branches: [main, playwright, Playwrigth-Cucumbur-e2e-test]
+    branches: [main, dev, Alex-Playwright-Cucumber ]
   # add branch-protection-rules in github for main (require pull-request)
   # then add another branch and try to make a pull-request in github
   # to merge your branch into main:
