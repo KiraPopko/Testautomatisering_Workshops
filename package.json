@@ -10,7 +10,7 @@
     "test-chromium": "cucumber-js tests/features --import tests/features/support chromium --import tests/features/step-definitions --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
     "test-firefox": "cucumber-js tests/features --import tests/features/support firefox --import tests/features/step-definitions --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
     "test-webkit": "cucumber-js tests/features --import tests/features/support webkit --import tests/features/step-definitions --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
-    "test-chrome-with-selenium": "cucumber-js tests/features --import tests/features/support-selenium --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
+    
     "make-steps": "node makeSteps.cjs",
     "make-report": "node generateReport.js"
   },
