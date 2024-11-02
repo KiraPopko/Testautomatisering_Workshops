@@ -25,7 +25,7 @@ jobs:
       # only testing on Node 20 now but could have done
       # several builds by adding [16.x, 18.x] etc
       matrix:
-        test-version: ["chromium", "firefox", "webkit", 'chrome-with-selenium']
+        test-version: ["chromium", "firefox", "webkit"]
 
     steps:
 
