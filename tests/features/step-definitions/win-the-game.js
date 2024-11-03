@@ -52,13 +52,13 @@ Then('click te button {string}', async function(button){
 });
 
 Then('money inscreases till {float}', async function(expectedMoney){
-  const moneyElement = await this.get('.money .val');
+  let moneyElement = await this.get('.money .val');
   
   // Get the text content of the element
-  const moneyText = await moneyElement.textContent();
+  let moneyText = await moneyElement.textContent();
 
   // Parse the text content to a float
-  const moneyN = parseFloat(moneyText);
+  let moneyN = parseFloat(moneyText);
 
   // Now check that the parsed value matches the expected value
   expect(moneyN).to.equal(expectedMoney);
@@ -68,10 +68,6 @@ Then('money inscreases till {float}', async function(expectedMoney){
 
 //I should give beer to barista
 
-/*Then('click click the needed button  {string}', async function(b){
-  let beerButton = await getMenuChoiceElement(this, 'Give beer to barista');
-  await beerButton.click();
-});*/
 
 
 //Win the game
