@@ -23,7 +23,6 @@ Given('that my position is {string}', async function (position) {
 });
 
 
-
 When('I wait long enough for the description to contain the text {string}', async function (partOfDescription) {
   // press wait repeatedly until the description contains a certain text
   while (!await checkIfDescriptionContainsString(this, partOfDescription, true)) {
@@ -46,7 +45,7 @@ Then('my hipster bag should contain {string}', async function (thing) {
 
 //I should be given a money by the group
 
-Then('click te button {string}', async function(button){
+Then('click the button {string}', async function(button){
   let jamButton = await getMenuChoiceElement(this, button);
   await jamButton.click();
 });

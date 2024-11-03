@@ -14,7 +14,7 @@ Scenario: I should be given a money by the group
     Given that I navigated to the position "at the concert"
     And that my position is "at the concert"
     When I wait long enough for the description to contain the text "jam with us"
-    Then click te button "Jam with the band"
+    Then click the button "Jam with the band"
     Then money inscreases till 15
 
 
@@ -22,7 +22,7 @@ Scenario: I should give beer to barista
     Given that I navigated to the position "inside the cafe"
     And that my position is "inside the cafe"
     When I wait long enough for the description to contain the text "if someone would just bring me a beer"
-    Then click te button "Give beer to barista"
+    Then click the button "Give beer to barista"
     Then my hipster bag should contain "nothing cool"
 
 Scenario: Win the game
