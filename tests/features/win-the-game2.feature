@@ -19,13 +19,12 @@ Scenario: I should be given a money by the band
 Scenario: I should buy one more espresso after playing with band
     Given that I navigated to the position "inside the cafe"
     And that my position is "inside the cafe"
-    Then click button "Buy an espresso"
+    Then click te button "Buy an espresso"
     And money decreses till 0
 
 
 Scenario: I should be given a beer by the bartender
-    Given that I have started the game by navigating to "http://localhost:3000"
-    And that I navigated to the position "in a crowded bar"
+    Given that I navigated to the position "in a crowded bar"
     And that my position is "in a crowded bar"
     When I wait long enough for the description to contain the text "The bartender offers you a can of beer for free"
     Then my hipster bag should contain "a can of beer"
