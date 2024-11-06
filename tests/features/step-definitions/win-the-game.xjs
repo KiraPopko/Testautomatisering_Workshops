@@ -36,19 +36,22 @@ Then('my hipster bag should contain {string}', async function (expectedBagConten
   expect(bagContent).to.equal(expectedBagContent);
 });
 
-/*
-Given('that my position is {string}', async function (a) {
+
+// Scenario: I navigate from outsid the cafe
+Given('that my position is {string}', async function (startPos) {
   // TODO: implement step
 });
 
-Given('that I make the choice to {string}', async function (a) {
-  // TODO: implement step
-});
-
+Given('that I make the choice to {string}', async function (goNorth) {
+  await this.driver.get(goNorth).click()
+  await this.driver.get(goNorth).click()
+  });
+  
 Then('my position should be {string}', async function (a) {
   // TODO: implement step
-});
-
+  });
+    
+    /*
 Given('that I know my current health', async function () {
   // TODO: implement step
 });
