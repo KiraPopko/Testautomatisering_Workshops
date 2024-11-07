@@ -1,60 +1,72 @@
 [
   {
-    "description": "  As a user I want to be able to turn on and of a \n  full screen mode when playing the game.",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "changing-the-window-to-full-screen-mode;turning-on-full-screen-mode",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-enter-the-caffe",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "Turning on full screen mode",
+        "line": 8,
+        "name": "Checking button Enter the caffe",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1536086074
+              "duration": 908081700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
-            "name": "that I have started the game at \"http://localhost:3000\"",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:7"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 976396182
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I click the full screen button",
-            "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2147205632
+              "duration": 3539844800
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "I should get a full screen mode",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:16"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:13"
             },
             "result": {
-              "status": "failed",
-              "duration": 2015352830,
-              "error_message": "ReferenceError: action is not defined\n    at CustomWorld.<anonymous> (file:///Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/fullScreen.js:20:3)"
+              "status": "passed",
+              "duration": 3015722598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "button \"Enter the cafe\" is clicked",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3085057999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "should be changed \"view\", \"text\" and available button \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3098840800
             }
           },
           {
@@ -62,7 +74,86 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 53681733
+              "duration": 53006199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-wait",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Checking button Wait",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 811263600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3486073800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002573999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "button \"Wait\" is pressed",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3074872300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "\"Health\" should be decreased and color changed to red",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3084126899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96737000
             }
           }
         ],
@@ -70,11 +161,11 @@
         "type": "scenario"
       }
     ],
-    "id": "changing-the-window-to-full-screen-mode",
+    "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them",
     "line": 1,
     "keyword": "Feature",
-    "name": "Changing the window to full screen mode",
+    "name": "All play  Buttons should be present and work correctly after clicking them",
     "tags": [],
-    "uri": "tests/features/fullScreen.feature"
+    "uri": "tests\\features\\buttons.feature"
   }
 ]
