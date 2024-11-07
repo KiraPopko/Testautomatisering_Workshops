@@ -1,72 +1,72 @@
 [
   {
-    "description": "  As a Google search engine user\n  I want to be able to find things",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "searching-with-google;searching-for-\"cats\"",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-enter-the-caffe",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "Searching for \"cats\"",
+        "line": 8,
+        "name": "Checking button Enter the caffe",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1468763240
+              "duration": 908081700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
-            "name": "that I am at \"https://www.google.com/\"",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:10"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1439405911
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I have approved of cookies",
-            "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 56302667
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "I search for \"cats\"",
-            "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 440901025
+              "duration": 3539844800
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
-            "name": "I should get at least 1000 hits",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
             "match": {
-              "location": "file:/Users/jenssjunnesson/GitHub-project/Testautomatisering_Workshops/tests/features/step-definitions/search.js:36"
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3752418162
+              "duration": 3015722598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "button \"Enter the cafe\" is clicked",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3085057999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "should be changed \"view\", \"text\" and available button \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\buttons.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3098840800
             }
           },
           {
@@ -74,7 +74,86 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 61651711
+              "duration": 53006199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them;checking-button-wait",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Checking button Wait",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 811263600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that game is starded with joining game \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1010335700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "that there are available all buttons \"Enter the cafe\", \"Wait\", \"Go north\", \"Go south\", \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132205499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "button \"Wait\" is pressed",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1479268098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "\"Health\" should be decreased and color changed to red",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\search.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219177098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61643399
             }
           }
         ],
@@ -82,11 +161,11 @@
         "type": "scenario"
       }
     ],
-    "id": "searching-with-google",
+    "id": "all-play--buttons-should-be-present-and-work-correctly-after-clicking-them",
     "line": 1,
     "keyword": "Feature",
-    "name": "Searching with Google",
+    "name": "All play  Buttons should be present and work correctly after clicking them",
     "tags": [],
-    "uri": "tests/features/search.feature"
+    "uri": "tests\\features\\search.feature"
   }
 ]
