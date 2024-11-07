@@ -16,8 +16,8 @@ When('I click the full screen button', async function () {
 Then('I should get a full screen mode', async function () {
   let iElement = await this.driver.findElement(By.css('i'));
   expect(iElement).to.not.have.property('::before');
-  await this.driver.sleep(2000)
-  await action.sendKeys(Key.ESCAPE).trigger()
+  // await this.driver.sleep(1000)
+  // await this.action.sendKeys(Key.ESCAPE).trigger()
 });
 
 
