@@ -1,0 +1,36 @@
+
+import { Given, When, Then } from '@cucumber/cucumber';
+import { By, until, Key } from 'selenium-webdriver';
+import { expect } from 'chai';
+
+Given('that I navigated to the position {string}', async function(a){
+  // TODO: implement step
+});
+
+Given('that my position is {string}', async function(a){
+  // TODO: implement step
+});
+
+When('I wait long enough for the description to contain the text {string}', async function(a){
+  // TODO: implement step
+});
+
+Then('my hipster bag should contain {string}', async function(a){
+  // TODO: implement step
+});
+
+Then('click te button {string}', async function(a){
+  // TODO: implement step
+});
+
+Then('money inscreases till {float}', async function(a){
+  // TODO: implement step
+});
+
+When('description to contain the text {string}', async function(a){
+  // TODO: implement step
+});
+
+Then('click repeatedly button {string} until I win', async function(a){
+  // TODO: implement step
+});
