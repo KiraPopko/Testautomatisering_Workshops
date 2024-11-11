@@ -3,7 +3,6 @@ let featureFolder = './tests/features';
 let stepDefinitionFolder = './tests/features/step-definitions';
 let dependenciesForSteps = `
 import { Given, When, Then } from '@cucumber/cucumber';
-import { By, until, Key } from 'selenium-webdriver';
 import { expect } from 'chai';`;
 const { promisify } = require('util');
 const { resolve, join, sep, normalize, dirname } = require('path');
