@@ -6,7 +6,7 @@ on:
   push:
     branches: [main, endpoint-testning-mataffaren]
   pull_request:
-    branches: [main]
+    branches: [main, endpoint-testning-mataffaren]
 
 # jobs to run
 jobs:
