@@ -20,7 +20,7 @@ jobs:
       # several builds by adding [16.x, 18.x] etc
       matrix:
         test-version: ["chromium", "firefox", "webkit"]
-        node-version: [20.x]
+       
 
     steps:
       # action from github marketplace, actions
