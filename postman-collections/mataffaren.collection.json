@@ -90,7 +90,7 @@
 			"response": []
 		},
 		{
-			"name": "Get productlist wirhin category/Sort",
+			"name": "Get productlist within category/Sort",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -185,7 +185,7 @@
 							"// Repeat/loop this request until we have requested all main categories",
 							"if(categories.children[categoryCounter]){",
 							"  // Repeat this request (with new variable data for the url)",
-							"  pm.execution.setNextRequest('Get productlist wirhin category/Sort');",
+							"  pm.execution.setNextRequest('Get productlist within category/Sort');",
 							"}",
 							""
 						],
@@ -324,7 +324,7 @@
 							"});",
 							"",
 							"let responseData = pm.response.json();",
-							"pm.test('There should be at least one product in a main category', () => {",
+							"pm.test('There should be at least one product in a sub category', () => {",
 							"    pm.expect(responseData.results.length).to.be.at.least(1);",
 							"});",
 							"",
@@ -350,11 +350,11 @@
 							"});",
 							"",
 							"let responseData = pm.response.json();",
-							"pm.test('There should be at least one product in a main category', () => {",
+							"pm.test('There should be at least one product in a sub category', () => {",
 							"    pm.expect(responseData.results.length).to.be.at.least(1);",
 							"});",
 							"",
-							"// Repeat/loop this request until all main categories are requested",
+							"// Repeat/loop this request until all sub categories are requested",
 							"if (categories && categories.children[1] && categories.children[1].children[0].children[categoryCounter]) {",
 							"  // Continue to the next request",
 							"  pm.execution.setNextRequest('Get productlist within subCategory');",
