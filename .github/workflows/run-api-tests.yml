@@ -19,6 +19,7 @@ jobs:
       # only testing on Node 18 now but could have done
       # several builds by adding [16.x, 18.x] etc
       matrix:
+        test-version: ["chromium", "firefox", "webkit"]
         node-version: [20.x]
 
     steps:
