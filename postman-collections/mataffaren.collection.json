@@ -186,8 +186,10 @@
 							"if(categories.children[categoryCounter]){",
 							"  // Repeat this request (with new variable data for the url)",
 							"  pm.execution.setNextRequest('Get productlist within category/Sort');",
-							"}",
-							""
+							"}else",
+							" {",
+							"    console.log('No more categories to process.');",
+							"    pm.variables.set('categoryCounter', 0); }"
 						],
 						"type": "text/javascript",
 						"packages": {}
