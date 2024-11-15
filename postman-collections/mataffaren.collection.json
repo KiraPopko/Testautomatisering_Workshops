@@ -189,7 +189,11 @@
 							"}else",
 							" {",
 							"    console.log('No more categories to process.');",
-							"    pm.variables.set('categoryCounter', 0); }"
+							"    pm.variables.set('categoryCounter', 0); ",
+							"    pm.execution.setNextRequest('Get productlist within subCategory')",
+							"    }",
+							"",
+							"    "
 						],
 						"type": "text/javascript",
 						"packages": {}
