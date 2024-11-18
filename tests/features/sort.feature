@@ -1,21 +1,22 @@
-Feature: Categories
-  As a REST-api endpoint consumer I want to be able to get a list of all categories in the shop
-  and check that all main categories contain at least one product.
+Feature:Sub categories sorting
+    As a REST API endpoint consumer,
+  I want to validate the category tree and ensure that subcategories are sorted alphabetically.
 
   Background:
     Given that I am on the domain "http://localhost:4000"
 
-  Scenario: Get a list of all categories
+ Scenario: Get a list of all categories
     When I visit the endpoint "GET" "/api/leftMenu/categorytree"
     Then the status code of the response should be 200
     And the response time should be below 1000 milliseconds
-    And there should be at least 500 categories
+    And there should be at least 10 main categories
 
-  Scenario Outline: Visiting a category
-    When I visit the endpoint "GET" "/api/c/{categoryUrlPart}?size=30&page=0&sort=topRated"
+
+  Scenario Outline: Checking subcategories sorting alphabetically
+    When I visit the endpoint "GET" "/api/c/{categoryUrlPart}?size=70&page=0&sort=name-asc"
     Then the status code of the response should be 200
     And the response time should be below 1000 milliseconds
-    And there should be at least 1 product in the category
+    And sub categories should be sorted by alphabetically
 
     # Use dynamic data (from a previous scenario) to run a scenario outline multiple times!
     # See the step definitions:
@@ -25,3 +26,4 @@ Feature: Categories
     # 3) Use the same name in singular in curly brackets in a string in your step (see above)
     Examples:
       | {dynamic: 'categoryUrlParts'} |
+    
