@@ -1,0 +1,1679 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.;you-will-come-back-to-the-same-page-after-checking-help-function-at-all-location-\"outside-the-cafe\"",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "you will come back to the same page after checking help function at all location \"outside the cafe\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920242399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"outside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 521178899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"outside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516400299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click the button \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597012199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the button \"Continue\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 552739698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"outside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522435298
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.;you-will-come-back-to-the-same-page-after-checking-help-function-at-all-location-\"inside-the-cafe\"",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "you will come back to the same page after checking help function at all location \"inside the cafe\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661612198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 576675997
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505675198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click the button \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 577105699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the button \"Continue\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569790099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513669898
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.;you-will-come-back-to-the-same-page-after-checking-help-function-at-all-location-\"on-an-empty-street\"",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "you will come back to the same page after checking help function at all location \"on an empty street\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644680498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"on an empty street\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612581798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"on an empty street\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515934998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click the button \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 603288400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the button \"Continue\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580358899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"on an empty street\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506173597
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.;you-will-come-back-to-the-same-page-after-checking-help-function-at-all-location-\"in-a-crowded-bar\"",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "you will come back to the same page after checking help function at all location \"in a crowded bar\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677149199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678872398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515319700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click the button \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573655598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the button \"Continue\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560978898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522228199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.;you-will-come-back-to-the-same-page-after-checking-help-function-at-all-location-\"in-the-country-side\"",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "you will come back to the same page after checking help function at all location \"in the country-side\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678127698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"in the country-side\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638921597
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"in the country-side\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513403498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click the button \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 595620900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the button \"Continue\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586903900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"in the country-side\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514604197
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.;you-will-come-back-to-the-same-page-after-checking-help-function-at-all-location-\"at-the-concert\"",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "you will come back to the same page after checking help function at all location \"at the concert\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678346999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677609599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522971599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "click the button \"Help\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585419698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the button \"Continue\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564450898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508290700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user--after-pressing-help-i-want-to-come-back-to-the-same-page.",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user  after pressing help I want to come back to the same page.",
+    "tags": [],
+    "uri": "tests\\features\\help.feature"
+  },
+  {
+    "description": "  As a user I want to check that I lose the game waiting repeatedly, regardless of the location I am at.",
+    "elements": [
+      {
+        "description": "",
+        "id": "i-lose-the-game-by-waiting;you-will-lose-the-game-by-waiting-enough-times-at-the-location-\"outside-the-cafe\"",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "You will lose the game by waiting enough times at the location \"outside the cafe\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 688383199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"outside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514605999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"outside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505814397
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait repeatedly until I die",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\lose-the-game.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1111957298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"I died\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507848397
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-lose-the-game-by-waiting;you-will-lose-the-game-by-waiting-enough-times-at-the-location-\"inside-the-cafe\"",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "You will lose the game by waiting enough times at the location \"inside the cafe\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 695553799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610702798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506745198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait repeatedly until I die",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\lose-the-game.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3371857298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"I died\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506482900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-lose-the-game-by-waiting;you-will-lose-the-game-by-waiting-enough-times-at-the-location-\"on-an-empty-street\"",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "You will lose the game by waiting enough times at the location \"on an empty street\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668888297
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"on an empty street\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 596328699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"on an empty street\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512142300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait repeatedly until I die",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\lose-the-game.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002665099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"I died\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513018098
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-lose-the-game-by-waiting;you-will-lose-the-game-by-waiting-enough-times-at-the-location-\"in-a-crowded-bar\"",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "You will lose the game by waiting enough times at the location \"in a crowded bar\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638311798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651978000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515903899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait repeatedly until I die",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\lose-the-game.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3110462499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"I died\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523478799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-lose-the-game-by-waiting;you-will-lose-the-game-by-waiting-enough-times-at-the-location-\"in-the-country-side\"",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "You will lose the game by waiting enough times at the location \"in the country-side\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663054298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"in the country-side\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 594325999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"in the country-side\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520289399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait repeatedly until I die",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\lose-the-game.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1971556899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"I died\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 505450299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "i-lose-the-game-by-waiting;you-will-lose-the-game-by-waiting-enough-times-at-the-location-\"at-the-concert\"",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "You will lose the game by waiting enough times at the location \"at the concert\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653072799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 667335797
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511506900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait repeatedly until I die",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\lose-the-game.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1081543198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my position should be \"I died\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514231498
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "i-lose-the-game-by-waiting",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "I lose the game by waiting",
+    "tags": [],
+    "uri": "tests\\features\\lose-the-game.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso;i-should-be-given-a-beer-by-the-bartender",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "I should be given a beer by the bartender",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 686196099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that I navigated to the position \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660819498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "that my position is \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507691399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I wait long enough for the description to contain the text \"The bartender offers you a can of beer for free\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 657061300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512811697
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso;i-should-be-given-a-money-by-the-group",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "I should be given a money by the group",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "that I navigated to the position \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 822334700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "that my position is \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514357897
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I wait long enough for the description to contain the text \"jam with us\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571651698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "click the button \"Jam with the band\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 578408000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "money inscreases till 15",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512697697
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso;i-should-give-beer-to-barista",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "I should give beer to barista",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "that I navigated to the position \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 751021999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "that my position is \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507257098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I wait long enough for the description to contain the text \"if someone would just bring me a beer\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 568611799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "click the button \"Give beer to barista\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 599150398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518764798
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso;win-the-game",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Win the game",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "description to contain the text \"He pours you a double espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 514800698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "click repeatedly button \"Buy an espresso\" until I win",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 666673199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "my position should be \"I won\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507901498
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a player I want to win in case i get 5 espresso",
+    "tags": [],
+    "uri": "tests\\features\\win-the-game.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario;i-should-buy-2-espresso-in-the-cafee",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I should buy 2 espresso in the cafee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that I have started the game by navigating to \"http://localhost:3000\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 640817599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "that I navigated to the position \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609698498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "that my position is \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515397998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "click repeatedly button \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game2.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 635800699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "money decreses till 0",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game2.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519733999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario;i-should-be-given-a-money-by-the-band",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "I should be given a money by the band",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "that I navigated to the position \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741073198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "that my position is \"at the concert\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520083499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I wait long enough for the description to contain the text \"jam with us\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660901798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "click the button \"Jam with the band\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571191800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario;i-should-buy-one-more-espresso-after-playing-with-band",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "I should buy one more espresso after playing with band",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "that I navigated to the position \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 748642697
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "that my position is \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522043899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "click the button \"Buy an espresso\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 577844197
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "money decreses till 0",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game2.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510399599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario;i-should-be-given-a-beer-by-the-bartender",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "I should be given a beer by the bartender",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "that I navigated to the position \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 738256398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "that my position is \"in a crowded bar\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508573998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I wait long enough for the description to contain the text \"The bartender offers you a can of beer for free\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660088699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "my hipster bag should contain \"a can of beer\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513887899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario;i-should-give-beer-to-barista",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "I should give beer to barista",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "that I navigated to the position \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 712002098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "that my position is \"inside the cafe\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508785198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "I wait long enough for the description to contain the text \"if someone would just bring me a beer\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 744294699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "click the button \"Give beer to barista\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 589331598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "my hipster bag should contain \"nothing cool\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510618799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario;win-the-game",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Win the game",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "my position should be \"I won\"",
+            "match": {
+              "location": "file:\\C:\\Users\\kirap\\OneDrive\\Dokument\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\win-the-game.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516176697
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-player-i-want-to-win-in-case-i-get-5-espresso-using-another-scenario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a player I want to win in case i get 5 espresso using another scenario",
+    "tags": [],
+    "uri": "tests\\features\\win-the-game2.feature"
+  }
+]
