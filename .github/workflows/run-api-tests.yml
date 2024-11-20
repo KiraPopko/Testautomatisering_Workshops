@@ -4,9 +4,9 @@ name: Node.js CI
 # in which branch(es) should start the jobs...
 on:
   push:
-    branches: [main, Cucumber+Chai+Fetch_-Mataffaren]
+    branches: [Cucumber+Chai+Fetch_-Mataffaren]
   pull_request:
-    branches: [main, Cucumber+Chai+Fetch_-Mataffaren]
+    branches: [Cucumber+Chai+Fetch_-Mataffaren]
 
 # jobs to run
 jobs:
