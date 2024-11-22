@@ -2,7 +2,7 @@
   "name": "wille",
   "private": true,
   "version": "0.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "start": "concurrently \"npm:backend\" \"npm:dev\"",
     "backend": "node --watch backend/index.js",

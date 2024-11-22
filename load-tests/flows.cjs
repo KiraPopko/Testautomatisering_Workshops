@@ -24,6 +24,7 @@ async function helloFlow(page) {
   // assert.equal(page.url(), 'https://artillery.io/pro/');
   // Click text=Sign up
   await page.click('text=Sign up');
+  
 }
 
 module.exports = { helloFlow };

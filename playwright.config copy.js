@@ -1,5 +1,16 @@
-import { defineConfig, devices } from '@playwright/test';
-export default defineConfig({
+// @ts-check
+const { defineConfig, devices } = require('@playwright/test');
+
+/**
+ * Read environment variables from file.
+ * https://github.com/motdotla/dotenv
+ */
+// require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+
+/**
+ * @see https://playwright.dev/docs/test-configuration
+ */
+module.exports = defineConfig({
   testDir: './e2e',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -52,10 +63,10 @@ export default defineConfig({
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+     {
+       name: 'Google Chrome',
+       use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+     },
   ],
 
   /* Run your local dev server before starting the tests */
@@ -65,3 +76,4 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 });
+
