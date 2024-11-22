@@ -1,0 +1,9 @@
+config:
+  target: https://www.artillery.io
+  # Enable the Playwright engine:
+  engines:
+    playwright: {}
+  processor: "./flows.cjs"
+scenarios:
+  - engine: playwright
+    testFunction: "helloFlow"
