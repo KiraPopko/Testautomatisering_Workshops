@@ -1,0 +1,9 @@
+config:
+  target: http://127.0.0.1:4000
+  # Enable the Playwright engine:
+  engines:
+    playwright: {}
+  processor: "./flows2.cjs"
+scenarios:
+  - engine: playwright
+    testFunction: "matAffarFlow"
