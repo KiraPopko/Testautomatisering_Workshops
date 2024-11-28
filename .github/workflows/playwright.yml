@@ -1,27 +1,43 @@
-name: Playwright Tests
+name: Node.js CI
 on:
   push:
     branches: [ main, artillery-test-mataffaren ]
   pull_request:
     branches: [ main, artillery-test-mataffaren ]
+# jobs to run
 jobs:
-  test:
-    timeout-minutes: 60
+  # build, the name of the job, a server to create and auto configure
+  endpoint-tests:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      # only testing on Node 18 now but could have done
+      # several builds by adding [16.x, 18.x] etc
+      matrix:
+        node-version: [20.x]
+
     steps:
+      # action from github marketplace, actions
+      # checkout this repo on the server
     - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      # action from github marketplace, actions
+      # install Node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+      # npm ci ≈ read-only from package.json version
+      # of npm install -> installs all npm modules
+      # mentioned in package.json, preferably during CI
+    - run: npm ci
+      # start up the backend server
+      # (the needs to run if we should be able 
+      #  perform endpoint-testing)
+      # run with nohup (no hangup) in order to 
+      # not block the terminal so we can still run test
+    - run: nohup node backend/index.js &
+      # run whatever is specified in package.json
+      # for the script test
+    - run: npm test
