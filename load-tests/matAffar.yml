@@ -1,17 +1,17 @@
 config:
   target: http://127.0.0.1:4000
   phases:
-    - duration: 10
+    - duration: 7
       arrivalRate: 1
-      rampTo: 5
+      rampTo: 2
       name: Warm up phase
-    - duration: 10
+    - duration: 7
       arrivalRate: 5
-      rampTo: 10
+      rampTo: 3
       name: Ramp up load
-    - duration: 10
-      arrivalRate: 10
-      rampTo: 10
+    - duration: 7
+      arrivalRate: 6
+      rampTo: 4
       name: Spike phase
   # Enable the Playwright engine:
   engines:
