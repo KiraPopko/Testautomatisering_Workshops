@@ -1,5 +1,4 @@
 Feature:Sub categories sorting
-    As a REST API endpoint consumer,
   I want to validate the category tree and ensure that subcategories are sorted alphabetically.
 
   Background:

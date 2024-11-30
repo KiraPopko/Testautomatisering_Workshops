@@ -27,27 +27,25 @@ console.log('this.json structure:', this.json);
 });*/
 
 Then('sub categories should be sorted by alphabetically', function () {
-  // Check if 'children' exists and sort them alphabetically
-  if (this.json?.children && Array.isArray(this.json.children)) {
-    // Sort the main categories alphabetically by their 'url'
-    this.json.children.sort((a, b) => a.url.localeCompare(b.url));
-
-    // Now check each category's 'subcategories'
-    this.json.children.forEach(category => {
-      if (category.children && Array.isArray(category.children)) {
-        // Iterate through each child and check if it has subcategories
-        category.children.forEach(subCategory => {
-          if (subCategory.children && Array.isArray(subCategory.children)) {
-            // Sort the subcategories alphabetically by their 'url'
-            subCategory.children.sort((a, b) => a.url.localeCompare(b.url));
-
-            // Log the sorted subcategories for this category
-            console.log(`Subcategories for category "${subCategory.url}" are sorted:`);
-            console.log(subCategory.children.map(sub => sub.url));
-          }
-        });
-      }
-    });
-  }
+  
+  
+    // Ensure `this.json` exists and check if `subCategories` is in the expected format
+    if (!this.json || !this.json.subCategories || !Array.isArray(this.json.subCategories)) {
+      console.error('Error: Response does not contain a valid "subCategories" array.');
+      console.error('Response JSON:', this.json); // Log the full response for debugging
+      throw new Error('Response does not contain a valid "subCategories" array.');
+    }
+  
+    // Extract the subcategory names
+    const subcategories = this.json.subCategories.map(x => x.name);
+  
+    // Sort the subcategories alphabetically
+    const sortedSubcategories = [...subcategories].sort((a, b) => a.localeCompare(b));
+  
+    // Ensure subcategories are sorted alphabetically in the response
+    this.json.subCategories = this.json.subCategories.sort((a, b) => a.name.localeCompare(b.name)); 
+  
+    // Now check if the original subcategories list is the same as the sorted one
+    expect(this.json.subCategories.map(x => x.name)).to.eql(sortedSubcategories);
 
 });
