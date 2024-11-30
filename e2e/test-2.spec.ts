@@ -21,4 +21,6 @@ test('test', async ({ page }) => {
   await page.getByRole('link', { name: 'Fågel', exact: true }).click();
   
   await page.getByRole('link', { name: 'Receptfria läkemedel' }).click();
+
+  
 });
