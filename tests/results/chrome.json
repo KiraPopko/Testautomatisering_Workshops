@@ -10,15 +10,6 @@
         "name": "Start outside the cafe and see the cafe image",
         "steps": [
           {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "failed",
-              "duration": 30006545899,
-              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
-            }
-          },
-          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -27,8 +18,9 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 3283200,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'get')\n    at openCafe (file:///C:/Users/alexa/GitHub/Testautomatisering_Workshops/tests/features/step-definitions/commonSteps.js:9:16)\n    at World.<anonymous> (file:///C:/Users/alexa/GitHub/Testautomatisering_Workshops/tests/features/step-definitions/commonSteps.js:33:9)\n    at Object.run (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:24:27)\n    at C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:114\n    at AsyncLocalStorage.run (node:async_hooks:346:14)\n    at runInTestCaseScope (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\scope\\test_case_scope.js:8:26)\n    at Object.run (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TestCaseRunner.invokeStep (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)"
             }
           },
           {
@@ -69,15 +61,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "failed",
-              "duration": 30004799800,
-              "error_message": "Error: function timed out, ensure the promise resolves within 30000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
-            }
           }
         ],
         "tags": [],
@@ -90,14 +73,6 @@
         "line": 9,
         "name": "Enter the cafe and view the inside image",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -149,14 +124,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -169,14 +136,6 @@
         "line": 15,
         "name": "Buy an espresso and check player stats",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -254,14 +213,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -274,14 +225,6 @@
         "line": 23,
         "name": "Check player's money and health status",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -333,14 +276,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -364,14 +299,6 @@
         "line": 5,
         "name": "Turning on full screen mode",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -410,14 +337,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -441,14 +360,6 @@
         "line": 3,
         "name": "Player's health decreases consistently by pressing wait",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -656,14 +567,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -687,14 +590,6 @@
         "line": 3,
         "name": "Start outside the cafe and see the cafe image",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -746,14 +641,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -766,14 +653,6 @@
         "line": 9,
         "name": "Enter the cafe and view the inside image",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -825,14 +704,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -845,14 +716,6 @@
         "line": 15,
         "name": "Buy an espresso and check player stats",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -930,14 +793,6 @@
               "status": "skipped",
               "duration": 0
             }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
           }
         ],
         "tags": [],
@@ -950,14 +805,6 @@
         "line": 23,
         "name": "Check player's money and health status",
         "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -1005,14 +852,6 @@
             "match": {
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
             "result": {
               "status": "skipped",
               "duration": 0

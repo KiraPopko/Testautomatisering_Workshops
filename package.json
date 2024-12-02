@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
+    "test-edge": "cucumber-js tests/features --import tests/features/support-edge --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"edge\\\"}  --format progress-bar --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
     "report": "node ./generateReport",
     "start": "node index.js"
   },
@@ -17,6 +18,7 @@
     "@qavajs/console-formatter": "^0.8.0",
     "chromedriver": "^130.0.0",
     "cucumber-html-reporter": "^6.0.0",
+    "edgedriver": "^5.6.1",
     "express": "^4.21.1",
     "open": "^10.1.0",
     "selenium-webdriver": "^4.25.0"

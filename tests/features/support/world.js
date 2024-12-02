@@ -1,20 +1,18 @@
 import seleniumWebdriver from 'selenium-webdriver';
 import { setWorldConstructor, setDefaultTimeout } from '@cucumber/cucumber';
-import { timeout, browser, headless } from '../../config.js';
-import chrome from 'selenium-webdriver/chrome.js';
-
-const options = new chrome.Options();
-headless && options.addArguments('--headless=new');
-
+import { timeout, headless } from '../../config.js';
+import edge from 'selenium-webdriver/edge.js';
+const options = new edge.Options();
+//headless && options.addArguments('--headless=new');
+export const driver = new seleniumWebdriver
+  .Builder()
+  .setEdgeOptions(options)
+  .forBrowser("MicrosoftEdge")
+  .build();
 class CustomWorld {
   constructor() {
-    this.driver = new seleniumWebdriver
-      .Builder()
-      .setChromeOptions(options)
-      .forBrowser(browser)
-      .build();
+    this.driver = driver;
   }
 }
-
 setDefaultTimeout(timeout);
 setWorldConstructor(CustomWorld);
