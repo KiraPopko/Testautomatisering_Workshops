@@ -1,24 +1,29 @@
 {
-  "name": "selenium-with-cucumber",
+  "name": "wille",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json ; node ./generateReport ; open tests/results/chrome.html",
-    "testOnly": "./node_modules/.bin/cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json",
-    "testReport": "node ./generateReport",
-    "openTestReport": "open tests/results/chrome.html"
+    "start": "concurrently \"npm:backend\" \"npm:dev\"",
+    "backend": "node --watch backend/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "newman run postman-collections/mataffaren.collection.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@cucumber/cucumber": "^11.0.1",
-    "chai": "^5.1.1",
-    "chromedriver": "^130.0.0",
-    "cucumber-html-reporter": "^6.0.0",
-    "open": "^10.1.0",
-    "selenium-webdriver": "^4.25.0"
+    "concurrently": "^8.0.1",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-easier": "^3.0.4",
+    "react-router-dom": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "newman": "^6.2.1",
+    "vite": "^4.2.0"
   }
 }
