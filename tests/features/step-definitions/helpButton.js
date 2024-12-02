@@ -10,6 +10,7 @@ Given('that I am inside the bar', async function () {
   await clickButton(this.driver, "go east"); // Använd den exporterade funktionen
 });
 
+
 Then('I should see a help message displayed', async function () {
   const helpTextElement = await this.driver.findElement(By.css('p.description'));
   const textContent = await helpTextElement.getText();

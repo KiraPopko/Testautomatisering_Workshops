@@ -5,7 +5,7 @@
   "description": "A small text adventure - written in vanilla JS + selenium testing to it",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json --",
+    "test": "cucumber-js tests/features --import tests/features/support --import tests/features/step-definitions --world-parameters {\\\"browserName\\\":\\\"chrome\\\"} --format json:tests/results/chrome.json --format @qavajs/console-formatter --fail-fast",
     "report": "node ./generateReport",
     "start": "node index.js"
   },
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@cucumber/cucumber": "^11.0.1",
+    "@qavajs/console-formatter": "^0.8.0",
     "chromedriver": "^130.0.0",
     "cucumber-html-reporter": "^6.0.0",
     "express": "^4.21.1",
