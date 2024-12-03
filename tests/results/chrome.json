@@ -10,6 +10,14 @@
         "name": "Start outside the cafe and see the cafe image",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2248900
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -18,9 +26,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "failed",
-              "duration": 3283200,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'get')\n    at openCafe (file:///C:/Users/alexa/GitHub/Testautomatisering_Workshops/tests/features/step-definitions/commonSteps.js:9:16)\n    at World.<anonymous> (file:///C:/Users/alexa/GitHub/Testautomatisering_Workshops/tests/features/step-definitions/commonSteps.js:33:9)\n    at Object.run (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:24:27)\n    at C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:114\n    at AsyncLocalStorage.run (node:async_hooks:346:14)\n    at runInTestCaseScope (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\scope\\test_case_scope.js:8:26)\n    at Object.run (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:52:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async TestCaseRunner.invokeStep (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:113:16)\n    at async TestCaseRunner.runStep (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:265:26)"
+              "status": "passed",
+              "duration": 3877599198
             }
           },
           {
@@ -32,8 +39,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4022641599
             }
           },
           {
@@ -45,8 +52,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2028985299
             }
           },
           {
@@ -58,8 +65,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2021548198
             }
           }
         ],
@@ -74,6 +81,14 @@
         "name": "Enter the cafe and view the inside image",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 178799
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
@@ -82,8 +97,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2051551500
             }
           },
           {
@@ -95,8 +110,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2058459599
             }
           },
           {
@@ -108,8 +123,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:17"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2027319599
             }
           },
           {
@@ -121,8 +136,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2021896899
             }
           }
         ],
@@ -137,6 +152,14 @@
         "name": "Buy an espresso and check player stats",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61100
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 16,
@@ -145,8 +168,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2060351200
             }
           },
           {
@@ -158,8 +181,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2049951699
             }
           },
           {
@@ -171,8 +194,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2057698499
             }
           },
           {
@@ -184,8 +207,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:29"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2023707999
             }
           },
           {
@@ -197,8 +220,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2024610000
             }
           },
           {
@@ -210,8 +233,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2021049999
             }
           }
         ],
@@ -226,6 +249,14 @@
         "name": "Check player's money and health status",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39899
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 24,
@@ -234,8 +265,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2048705499
             }
           },
           {
@@ -247,8 +278,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4020532200
             }
           },
           {
@@ -260,8 +291,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2019121899
             }
           },
           {
@@ -273,8 +304,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2026686500
             }
           }
         ],
@@ -300,6 +331,14 @@
         "name": "Turning on full screen mode",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28200
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
@@ -308,8 +347,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2053129198
             }
           },
           {
@@ -321,8 +360,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4090794799
             }
           },
           {
@@ -334,8 +373,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2012716900
             }
           }
         ],
@@ -355,242 +394,20 @@
     "elements": [
       {
         "description": "",
-        "id": "health-decrease-when-waiting-outside-the-cafe;player's-health-decreases-consistently-by-pressing-wait",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Player's health decreases consistently by pressing wait",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 4,
-            "name": "that I am outside the cafe",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "my initial health is 50",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:37"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "my health should be 45",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "my health should be 35",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "my health should be 30",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 12,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "my health should be 20",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "my health should be 15",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "my health should be 5",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "I press wait",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\healthDecrease.js:7"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "my health should be 0",
-            "match": {
-              "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "health-decrease-when-waiting-outside-the-cafe",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Health decrease when waiting outside the cafe",
-    "tags": [],
-    "uri": "tests\\features\\healthDecrease.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "explore-the-cafe;start-outside-the-cafe-and-see-the-cafe-image",
         "keyword": "Scenario",
         "line": 3,
         "name": "Start outside the cafe and see the cafe image",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24499
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
@@ -599,8 +416,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2070764999
             }
           },
           {
@@ -612,8 +429,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4015200300
             }
           },
           {
@@ -625,8 +442,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2020771598
             }
           },
           {
@@ -638,8 +455,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2026320398
             }
           }
         ],
@@ -654,6 +471,14 @@
         "name": "Enter the cafe and view the inside image",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28599
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 10,
@@ -662,8 +487,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2055972998
             }
           },
           {
@@ -675,8 +500,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2042996100
             }
           },
           {
@@ -688,8 +513,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:17"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2015233399
             }
           },
           {
@@ -701,8 +526,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2022487000
             }
           }
         ],
@@ -717,6 +542,14 @@
         "name": "Buy an espresso and check player stats",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31800
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 16,
@@ -725,8 +558,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2055377200
             }
           },
           {
@@ -738,8 +571,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2053614798
             }
           },
           {
@@ -751,8 +584,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2048842600
             }
           },
           {
@@ -764,8 +597,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:29"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2026561799
             }
           },
           {
@@ -777,8 +610,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2017669298
             }
           },
           {
@@ -790,8 +623,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2021428198
             }
           }
         ],
@@ -806,6 +639,14 @@
         "name": "Check player's money and health status",
         "steps": [
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37499
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
             "line": 24,
@@ -814,8 +655,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2052715898
             }
           },
           {
@@ -827,8 +668,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4020395099
             }
           },
           {
@@ -840,8 +681,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2014018199
             }
           },
           {
@@ -853,8 +694,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2015380799
             }
           }
         ],
