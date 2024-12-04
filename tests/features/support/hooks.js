@@ -27,4 +27,3 @@ AfterStep(async function () {
 AfterAll(async function () {
   await browser.close();
 });
-

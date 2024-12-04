@@ -1,14 +1,4 @@
 import { expect } from 'chai';
-
-// -----------------------------------------------------------------------
-// Helpers used in several step definitions in the feature "win-the-game"
-// (if we are going to use them in more features
-//  consider refactoring to own file/files)
-// -----------------------------------------------------------------------
-
-// Note: The world parameter sent to the helpers should be the
-// Cucucmber world object ("this" inside the step definitions)
-
 export async function getWhereIAm(world) {
   // translate images (since less variation in those than in descriptions)
   // into where i am on the 'map'
@@ -36,7 +26,6 @@ export async function getWhereIAm(world) {
   }
   // get the image name from the image source
   let imageName = imageSource.split('/').slice(-1)[0].split('.')[0];
-  // return the location
   return imageToLocationMap[imageName];
 }
 
