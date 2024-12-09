@@ -2,7 +2,7 @@ import { When } from '@cucumber/cucumber';
 import { By } from 'selenium-webdriver';
 import { clickButton } from './commonSteps.js';
 
-let waitCount = 0;  // Track the number of times the wait button is pressed
+let waitCount = 0; 
 
 When('I press wait', async function () {
   await clickButton(this.driver, 'Wait');
