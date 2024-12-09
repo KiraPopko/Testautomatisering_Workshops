@@ -4,9 +4,9 @@ name: Node.js CI
 # in which branch(es) should start the jobs...
 on:
   push:
-    branches: [main, dev, Alex-Playwright-Cucumber ]
+    branches: [main, playwright, Alex-Playwright-Cucumber]
   pull_request:
-    branches: [main, dev, Alex-Playwright-Cucumber ]
+    branches: [main, playwright, Alex-Playwright-Cucumber]
   # add branch-protection-rules in github for main (require pull-request)
   # then add another branch and try to make a pull-request in github
   # to merge your branch into main:
@@ -25,7 +25,7 @@ jobs:
       # only testing on Node 20 now but could have done
       # several builds by adding [16.x, 18.x] etc
       matrix:
-        test-version: ["chromium", "firefox", "webkit", 'chrome-with-selenium']
+        test-version: ["chromium", "firefox", "webkit"]
 
     steps:
 
