@@ -3,7 +3,7 @@ Feature: I lose the game by waiting
 
   Scenario Outline: You will lose the game by waiting enough times at the location "<location>"
     Given that I have started the game by navigating to "http://localhost:3000"
-    And that I navigated to the position "<location>"
+    And that I have navigated to the position "<location>"
     And that my position is "<location>"
     When I wait repeatedly until I die
     Then my position should be "I died"

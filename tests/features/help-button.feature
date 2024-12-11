@@ -2,10 +2,10 @@ Feature: As a user  after pressing help I want to come back to the same page.
 
   Scenario Outline: you will come back to the same page after checking help function at all location "<location>"
     Given that I have started the game by navigating to "http://localhost:3000"
-    And that I navigated to the position "<location>"
+    And that I have navigated to the position "<location>"
     And that my position is "<location>"
-    When click the button "Help"
-    And click the button "Continue"
+    When I click on the button "Help"
+    And I click on the button "Continue"
     Then my position should be "<location>"
 
     Examples:
