@@ -49,3 +49,5 @@ jobs:
       # for the script test
     - run: nohup node index.js &
     - run: npm test
+      env:
+        FORCE_COLOR: 2
