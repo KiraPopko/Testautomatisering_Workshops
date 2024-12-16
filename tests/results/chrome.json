@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1800199
+              "duration": 917899
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4462522898
+              "duration": 2295382098
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4018295098
+              "duration": 2068809999
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2030109698
+              "duration": 77670899
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2045311599
+              "duration": 78151500
             }
           }
         ],
@@ -85,7 +85,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 121200
+              "duration": 52599
             }
           },
           {
@@ -98,7 +98,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2055194099
+              "duration": 105256199
             }
           },
           {
@@ -111,7 +111,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2084469598
+              "duration": 138560100
             }
           },
           {
@@ -124,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2028717298
+              "duration": 75624798
             }
           },
           {
@@ -137,7 +137,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2017497799
+              "duration": 76780399
             }
           }
         ],
@@ -156,7 +156,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 51700
+              "duration": 47599
             }
           },
           {
@@ -169,7 +169,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2050440299
+              "duration": 92166200
             }
           },
           {
@@ -182,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2058355798
+              "duration": 122711799
             }
           },
           {
@@ -195,7 +195,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2058656499
+              "duration": 107453999
             }
           },
           {
@@ -208,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2018077000
+              "duration": 76609300
             }
           },
           {
@@ -221,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2016943399
+              "duration": 76785498
             }
           },
           {
@@ -234,7 +234,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2025280298
+              "duration": 76792898
             }
           }
         ],
@@ -253,7 +253,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37900
+              "duration": 50099
             }
           },
           {
@@ -266,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2058543399
+              "duration": 92248098
             }
           },
           {
@@ -279,7 +279,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4029623999
+              "duration": 2056258198
             }
           },
           {
@@ -291,9 +291,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "failed",
-              "duration": 2011758099,
-              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=131.0.2903.86)\n    at Object.throwDecodedError (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async CustomWorld.<anonymous> (file:///C:/Users/alexa/GitHub/Testautomatisering_Workshops/tests/features/step-definitions/commonSteps.js:43:25)"
+              "status": "passed",
+              "duration": 75849900
             }
           },
           {
@@ -305,8 +304,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 78227700
             }
           }
         ],
@@ -335,8 +334,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 27599
             }
           },
           {
@@ -348,8 +347,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 90663099
             }
           },
           {
@@ -361,8 +360,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2198442099
             }
           },
           {
@@ -374,8 +373,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\fullScreen.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 60755900
             }
           }
         ],
@@ -404,8 +403,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 26600
             }
           },
           {
@@ -417,8 +416,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 151613500
             }
           },
           {
@@ -430,8 +429,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2072221200
             }
           },
           {
@@ -443,8 +442,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 75408099
             }
           },
           {
@@ -456,8 +455,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 76926899
             }
           }
         ],
@@ -475,8 +474,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 26700
             }
           },
           {
@@ -488,8 +487,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 106101799
             }
           },
           {
@@ -501,8 +500,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 107136000
             }
           },
           {
@@ -514,8 +513,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:17"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 76286399
             }
           },
           {
@@ -527,8 +526,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 76386099
             }
           }
         ],
@@ -546,8 +545,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 33199
             }
           },
           {
@@ -559,8 +558,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 92399900
             }
           },
           {
@@ -572,8 +571,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 107308699
             }
           },
           {
@@ -585,8 +584,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 107052200
             }
           },
           {
@@ -598,8 +597,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\exploreCafe.js:29"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 75342500
             }
           },
           {
@@ -611,8 +610,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 76779800
             }
           },
           {
@@ -624,8 +623,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 77160899
             }
           }
         ],
@@ -643,8 +642,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 38700
             }
           },
           {
@@ -656,8 +655,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 90553000
             }
           },
           {
@@ -669,8 +668,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:57"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2072140199
             }
           },
           {
@@ -682,8 +681,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:42"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 77666300
             }
           },
           {
@@ -695,8 +694,8 @@
               "location": "file:\\C:\\Users\\alexa\\GitHub\\Testautomatisering_Workshops\\tests\\features\\step-definitions\\commonSteps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 75165198
             }
           }
         ],
