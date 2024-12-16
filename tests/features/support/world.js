@@ -22,7 +22,7 @@ else { //github action run chrome
   _driver = new seleniumWebdriver
     .Builder()
     .setChromeOptions(options)
-    .forBrowser("Chrome")
+    .forBrowser("chrome")
     .build();
 }
 
