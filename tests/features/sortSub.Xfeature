@@ -12,7 +12,7 @@ Feature:Sub categories sorting
 
 
   Scenario Outline: Checking subcategories sorting alphabetically
-    When I visit the endpoint "GET" "/api/c/{categoryUrlPart}?size=70&page=0&sort=name-asc"
+    When I visit the endpoint "GET" "/api/c/frukt-och-gront?size=70&page=0&sort=name-asc"
     Then the status code of the response should be 200
     And the response time should be below 1000 milliseconds
     And sub categories should be sorted by alphabetically

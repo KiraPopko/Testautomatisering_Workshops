@@ -3,29 +3,6 @@ import { Given, When, Then } from '@cucumber/cucumber';
 import { expect } from 'chai';
 
 
-
-/*Then('sub categories should be sorted by alphabetically', function () {
-  //this.json.children.sort((a, b) => a.url.localeCompare(b.url));
-// Check if children exist and sort them alphabetically
-if (this.json?.children && Array.isArray(this.json.children)) {
-  this.json.children.sort((a, b) => a.url.localeCompare(b.url));
-
-  // Sort subcategories alphabetically for each child
-  this.json.children.forEach(category => {
-      if (category.subcategories && Array.isArray(category.subcategories)) {
-          category.subcategories.sort((a, b) => a.url.localeCompare(b.url));
-          
-          // Log the sorted subcategories for this category
-          //console.log(`Subcategories for category "${category.url}" are sorted:`);
-          console.log(category.subcategories.map(sub => sub.url));
-      }
-  });
-}
-console.log('this.json structure:', this.json);
-
-
-});*/
-
 Then('sub categories should be sorted by alphabetically', function () {
   
   
