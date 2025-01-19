@@ -1,11 +1,8 @@
 {
   "yaml.schemas": {
     "https://www.artillery.io/schema.json": [
-      "file:///Users/thomasfrank/Desktop/endpoint-testning-mataffaren/load-tests/basic.yml",
-      "file:///c%3A/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/load-tests/basic.yml",
-      "file:///c%3A/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/load-tests/hello-world.yml",
-      "file:///c%3A/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/load-tests/hello-world%20copy.yml",
-      "file:///c%3A/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/load-tests/matAffar.yml"
+      "file:///c%3A/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/load-tests/matAffar.yml",
+      "file:///c%3A/Users/kirap/OneDrive/Dokument/GitHub/Testautomatisering_Workshops/load-tests/hello-world.yml"
     ]
   }
 }
