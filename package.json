@@ -13,7 +13,7 @@
     "newman-test": "newman run postman-collections/mataffaren.collection.json",
     "make-steps": "node makeSteps.cjs",
     "load-test-basic": "artillery run load-tests/basic.yml",
-    "test1": "artillery run load-tests/matAffar.yml"
+    "test-ar": "artillery run load-tests/matAffar.yml"
   },
   "dependencies": {
     "concurrently": "^8.0.1",
