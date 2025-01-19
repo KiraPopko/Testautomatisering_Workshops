@@ -13,7 +13,7 @@ jobs:
   # build, the name of the job, a server to create and auto configure
   endpoint-tests:
 
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     strategy:
       # only testing on Node 18 now but could have done
